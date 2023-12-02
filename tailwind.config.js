@@ -10,21 +10,26 @@ export default {
     },
     fontSize: {
       sm: ["0.875rem", "1.5"],
-      base: ["1rem", "1.5"],
-      lg: ["1.25rem", "1.4"],
-      xl: ["clamp(1.56rem, 0.79vw + 1.36rem, 2rem)", "1.3"],
+      base: ["1.125rem", "1.5"],
+      lg: ["1.375rem", "1.4"],
+      xl: ["clamp(1.56rem, 0.79vw + 1.36rem, 1.8rem)", "1.3"],
       "2xl": ["clamp(1.95rem, 1.29vw + 1.63rem, 2.66rem)", "1.3"],
-      "3xl": ["clamp(2.44rem, 2.02vw + 1.94rem, 3.55rem)", "1.2"],
+      "3xl": ["clamp(2.44rem, 2.02vw + 1.94rem, 3.2rem)", "1.2"],
       "4xl": ["clamp(3.05rem, 3.06vw + 2.29rem, 4.73rem)", "1.2"],
     },
     extend: {
       colors: {
         primary: {
-          400: "#ffaf02",
+          400: "#441918",
+          300: "#8b272c",
         },
       },
+      backgroundImage: {
+        body: "linear-gradient(120deg, #230e0e 0%, #410f0e 100%)",
+      },
       fontFamily: {
-        sans: ["Poppins", "system-ui", "sans-serif"],
+        "sans-1": ["Roboto", "system-ui", "sans-serif"],
+        "sans-2": ["Roboto Condensed", "system-ui", "sans-serif"],
       },
     },
   },

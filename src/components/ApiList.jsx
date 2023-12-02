@@ -1,0 +1,153 @@
+import ApiListItem from "./ApiListItem";
+import { Fragment } from "react";
+
+const apiBodies = {
+  firstApiTip: `Elsősorban mindig jelentkezzetek be a saját webböngészőtökből 
+  (Google Chrome, Mozilla, Opera..stb.) a Steam-en.`,
+  secondApiTip: `Amennyiben ezek után is kéri valamelyik oldal a böngészőből a Steam-es 
+  bejelentkezésedet (Írd be a jelszavadat vagy olvasd be a QR kódot), akkor egy scam oldalra 
+  próbálsz belépni. Így szeretnék a scammerek megtudni a jelszavadat és a felhasználó nevedet 
+  és ezután ellopni az API key-edet.`,
+  thirdApiTip: `Amennyiben mégis egy third-party (nem a Steam tulajdonában álló) oldalra szeretnél belépni, 
+  először jelentkezz be a webböngésződből a Steam fiókodra. Ezután, ha megpróbálsz bejelentkezni a third-party 
+  oldalra akkor nem fog jelszót és felhasználó nevet kérni, hanem csak egy zöld „Sign In” (Bejelentkezés) 
+  gomb fog várni.`,
+  fourthApiTip: `Ha nagyon biztosra akarsz menni és egy másik fiókodra akarsz küldeni valami értékesebb skin-t, 
+  akkor kérj cserébe vissza egy pár centes itemet/skint. Ezután felugrik a telefonodra a visszaigazolás iránti 
+  kérelem és itt jön egy nagyon fontos mozzanat, mert meg kell bizonyosodnod arról, hogy tényleg jó helyre küldöd-e 
+  át a dolgokat.`,
+  fifthApiTip: `Mindig ellenőrizd, hogy van-e API key beállítva azon a fiókon amire akarsz átküldeni értékesebb dolgokat.`,
+  sixthApiTip: `Kapott Badge a másik fiókon.`,
+  seventhApiTip: `Steam profilod szintje. (Steam level)`,
+  eighthApiTip: `A másik fiók képe alatt az, hogy ismerősök vagytok-e. (egy fehér ember ikon)`,
+  ninthApiTip: `A pár centes item a másik fiókról benne van-e a trade-ben. (Az API scam fiókok nem rendelkeznek 
+    ilyen itemekkel feltehetőleg, tehát nem szerepelne a tradeben az amit amúgy te beraktál, legyen az skin vagy egy semmitmondó graffiti).`,
+  tenthApiTip: `Ha minden stimmel akkor elfogadható a trade.`,
+};
+
+export default function ApiList() {
+  return (
+    <ul className="space-y-10">
+      <ApiListItem
+        body={apiBodies.firstApiTip}
+        icon={
+          <Fragment>
+            <img
+              className="max-w-[3rem]"
+              src="assets/exclamation_mark.png"
+              alt="exclamation mark"
+            />
+          </Fragment>
+        }
+      />
+      <ApiListItem
+        body={apiBodies.secondApiTip}
+        icon={
+          <Fragment>
+            <img
+              className="max-w-[3rem]"
+              src="assets/exclamation_mark.png"
+              alt="exclamation mark"
+            />
+          </Fragment>
+        }
+      />
+      <ApiListItem
+        body={apiBodies.thirdApiTip}
+        icon={
+          <Fragment>
+            <img
+              className="max-w-[3rem]"
+              src="assets/exclamation_mark.png"
+              alt="exclamation mark"
+            />
+          </Fragment>
+        }
+      />
+      <ApiListItem
+        body={apiBodies.fourthApiTip}
+        icon={
+          <Fragment>
+            <img
+              className="max-w-[3rem]"
+              src="assets/exclamation_mark.png"
+              alt="exclamation mark"
+            />
+          </Fragment>
+        }
+      />
+      <ApiListItem
+        body={apiBodies.fifthApiTip}
+        icon={
+          <Fragment>
+            <img
+              className="max-w-[3rem]"
+              src="assets/exclamation_mark.png"
+              alt="exclamation mark"
+            />
+          </Fragment>
+        }
+      />
+      <ApiListItem
+        body={apiBodies.sixthApiTip}
+        icon={
+          <Fragment>
+            <img
+              className="max-w-[3rem]"
+              src="assets/exclamation_mark.png"
+              alt="exclamation mark"
+            />
+          </Fragment>
+        }
+      />
+      <ApiListItem
+        body={apiBodies.seventhApiTip}
+        icon={
+          <Fragment>
+            <img
+              className="max-w-[3rem]"
+              src="assets/exclamation_mark.png"
+              alt="exclamation mark"
+            />
+          </Fragment>
+        }
+      />
+      <ApiListItem
+        body={apiBodies.eighthApiTip}
+        icon={
+          <Fragment>
+            <img
+              className="max-w-[3rem]"
+              src="assets/exclamation_mark.png"
+              alt="exclamation mark"
+            />
+          </Fragment>
+        }
+      />
+      <ApiListItem
+        body={apiBodies.ninthApiTip}
+        icon={
+          <Fragment>
+            <img
+              className="max-w-[3rem]"
+              src="assets/exclamation_mark.png"
+              alt="exclamation mark"
+            />
+          </Fragment>
+        }
+      />
+      <ApiListItem
+        body={apiBodies.tenthApiTip}
+        icon={
+          <Fragment>
+            <img
+              className="max-w-[3rem]"
+              src="assets/exclamation_mark.png"
+              alt="exclamation mark"
+            />
+          </Fragment>
+        }
+      />
+    </ul>
+  );
+}

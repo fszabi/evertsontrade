@@ -1,21 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
 
 @tailwind base;
 
 @layer base {
   :root {
     --neutral-700: #404040;
-    --primary-400: #ffaf02;
+    --blue-400: #60a5fa;
   }
 
   body {
-    @apply bg-neutral-800 text-slate-100 font-sans;
+    @apply bg-body text-neutral-100 font-sans-1 text-base;
   }
 
-  @supports (scrollbar-color: var(--primary-400) var(--neutral-700)) {
+  @supports (scrollbar-color: var(--blue-400) var(--neutral-700)) {
     * {
       scrollbar-width: thin;
-      scrollbar-color: var(--primary-400) var(--neutral-700);
+      scrollbar-color: var(--blue-400) var(--neutral-700);
     }
   }
 
@@ -30,7 +30,7 @@
   }
 
   *::-webkit-scrollbar-thumb {
-    background-color: var(--primary-400);
+    background-color: var(--blue-400);
     border-radius: 100vw;
   }
 
@@ -54,8 +54,28 @@
 
 @layer components {
   .container {
-    @apply w-[min(100%-2rem,_60rem)] mx-auto;
+    @apply w-[min(100%-3rem,_70rem)] mx-auto;
   }
 }
 
 @tailwind utilities;
+
+.custom-shape-divider-top-1701525998 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1701525998 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-top-1701525998 .shape-fill {
+  fill: #171717;
+}
