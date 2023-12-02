@@ -10,9 +10,13 @@ export default function Footer() {
       <Section>
         <Container customStyles="space-y-20">
           <div className="mx-auto text-center space-y-10 max-w-3xl">
-            <div className="mx-auto flex justify-center items-center rounded-full aspect-square min-h-[3rem] p-3 bg-neutral-900 w-fit">
+            <a
+              target="_blank"
+              href="https://steamcommunity.com/tradeoffer/new/?partner=1061101075&token=SLQ6lxob"
+              className="mx-auto flex justify-center items-center rounded-full aspect-square min-h-[3rem] p-3 bg-neutral-900 w-fit hover:opacity-80 duration-300"
+            >
               <i class="fa-brands fa-steam text-xl"></i>
-            </div>
+            </a>
             <div className="space-y-10">
               <p className="text-lg">
                 Amennyiben esetleg támogatnád az oldal működését skinekkel, a
