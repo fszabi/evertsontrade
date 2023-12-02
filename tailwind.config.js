@@ -28,7 +28,7 @@ export default {
         },
       },
       backgroundImage: {
-        body: "radial-gradient(farthest-corner circle at 50% 50%, #3d0f0e 0%, #1f0e0d 100%)",
+        body: "radial-gradient(farthest-corner circle at 50% 50%, #700001 0%, #1f0e0d 100%)",
       },
       fontFamily: {
         "sans-1": ["Roboto", "system-ui", "sans-serif"],
