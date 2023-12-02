@@ -27,6 +27,10 @@ export default function MainHeader() {
             </NavItem>
 
             <NavItem>
+              <Link to="/trade-up">Trade-Up</Link>
+            </NavItem>
+
+            <NavItem>
               <Link to="/leiras">Leírás</Link>
             </NavItem>
 

@@ -1,11 +1,10 @@
 import Container from "../components/Container";
 import Section from "../components/Section";
-import Form from "../components/Form";
 import { useEffect } from "react";
 
-export default function Contact() {
+export default function TradeUp() {
   useEffect(() => {
-    document.title = "Kapcsolatfelvétel - evertsontrade.com";
+    document.title = "Trade-Up - evertsontrade.com";
   }, []);
 
   return (
@@ -13,9 +12,8 @@ export default function Contact() {
       <Section>
         <Container customStyles="space-y-10">
           <h1 className="uppercase font-sans-2 italic font-bold text-3xl text-center">
-            Kapcsolatfelvétel
+            Trade-Up
           </h1>
-          <Form />
         </Container>
       </Section>
     </main>
