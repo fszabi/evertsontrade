@@ -24,7 +24,7 @@ export default {
           300: "#8b272c",
         },
         neutral: {
-          900: "#000000",
+          900: "#070707",
         },
       },
       backgroundImage: {
