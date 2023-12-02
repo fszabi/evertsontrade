@@ -13,7 +13,7 @@ export default function MainHeader() {
         />
 
         <nav>
-          <ul className="flex gap-10">
+          <ul className="flex flex-wrap gap-10">
             <NavItem>
               <Link to="/">Kezdőlap</Link>
             </NavItem>
