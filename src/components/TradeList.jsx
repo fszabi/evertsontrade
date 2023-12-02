@@ -23,13 +23,17 @@ const tradeBodies = {
   steamcommunity.com/dev/apikey Itt a saját API key regisztrációs oldaladra fog navigálni a Steam, ahol láthatod a jelenleg beállított API key-t. 
   Hogyha érdekes számokat, e-mail címet, web domain-t, vagy bármi olyan dolgot találsz, amit, amit biztosan tudod, hogy nem te állítottál be, 
   akkor valószínűleg API scam áldozata vagy!`,
-  tenthTrade: `Ellenőrzés utáni teendők amennyiben API scam áldozata vagy: (Mindenképpen tartsátok be a sorrendet) Változtasd meg a jelszavadat 
-  Deaktíválj (csatlakoztass le) minden olyan eszközt, ami hozzá fér a Steam fiókodhoz vagy be van jelentkezve rajta Minden olyan platformon, 
-  ahol ugyanaz a jelszó, mint ami Steam-eden, sürgősen változtasd meg. Azon az oldalon (steamcommunity.com/dev/apikey), ahol megnézted, 
-  hogy a fiókod API scam-mel fertőzték meg, kattints a Steam API kulcs visszavonása (Revoke My Steam Web API Key) gombra. Ezután felugrik egy ablak, 
-  ami figyelmeztet, hogy az API kulcs ezután nem fog működik és a művelet visszavonhatatlan lesz. Ne foglalkozzatok vele, „OK” gombra kell kattintani, 
-  ez csak a scammertől veszi el az utat a fiókodhoz, amennyiben szükség van rá bármikor tudtok újat igényelni. Ellenőrizzétek, hogy valóban üres-e a mező 
-  az API kulcsos oldalon. Amennyiben üres a mező, akkor sikeresen megcsináltátok, viszont amennyiben továbbra is van ott valami úgy, 
+  tenthTrade: `Ellenőrzés utáni teendők amennyiben API scam áldozata vagy: (Mindenképpen tartsátok be a sorrendet)`,
+  eleventhTrade: `Változtasd meg a jelszavadat Deaktíválj (csatlakoztass le) minden olyan eszközt, 
+  ami hozzá fér a Steam fiókodhoz vagy be van jelentkezve rajta.`,
+  twelfthTrade: `Minden olyan platformon, ahol ugyanaz a jelszó, mint ami Steam-eden, sürgősen változtasd meg.`,
+  thirteenthTrade: `Azon az oldalon (steamcommunity.com/dev/apikey), ahol megnézted, 
+  hogy a fiókod API scam-mel fertőzték meg, kattints a Steam API kulcs visszavonása (Revoke My Steam Web API Key) gombra.`,
+  fourteenthTrade: `Ezután felugrik egy ablak, ami figyelmeztet, hogy az API kulcs ezután nem fog működik és a 
+  művelet visszavonhatatlan lesz. Ne foglalkozzatok vele, „OK” gombra kell kattintani, 
+  ez csak a scammertől veszi el az utat a fiókodhoz, amennyiben szükség van rá bármikor tudtok újat igényelni.`,
+  fifteenthTrade: `Ellenőrizzétek, hogy valóban üres-e a mező az API kulcsos oldalon. Amennyiben üres a mező, 
+  akkor sikeresen megcsináltátok, viszont amennyiben továbbra is van ott valami úgy, 
   hogy pontról-pontra végig csináltátok a teendőket, akkor kezdjétek elölről.`,
 };
 
@@ -46,8 +50,6 @@ export default function StepList() {
 
       <TradeListItem body={tradeBodies.fifthTrade} />
 
-      <TradeListItem body={tradeBodies.fifthTrade} />
-
       <TradeListItem body={tradeBodies.sixthTrade} />
 
       <TradeListItem body={tradeBodies.seventhTrade} />
@@ -57,6 +59,16 @@ export default function StepList() {
       <TradeListItem body={tradeBodies.ninthTrade} />
 
       <TradeListItem body={tradeBodies.tenthTrade} />
+
+      <TradeListItem body={tradeBodies.eleventhTrade} />
+
+      <TradeListItem body={tradeBodies.twelfthTrade} />
+
+      <TradeListItem body={tradeBodies.thirteenthTrade} />
+
+      <TradeListItem body={tradeBodies.fourteenthTrade} />
+
+      <TradeListItem body={tradeBodies.fifteenthTrade} />
     </ul>
   );
 }

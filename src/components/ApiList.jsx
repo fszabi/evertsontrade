@@ -34,7 +34,7 @@ export default function ApiList() {
           <Fragment>
             <img
               className="max-w-[3rem]"
-              src="assets/exclamation_mark.png"
+              src="assets/exclamation_mark2.png"
               alt="exclamation mark"
             />
           </Fragment>
@@ -46,7 +46,7 @@ export default function ApiList() {
           <Fragment>
             <img
               className="max-w-[3rem]"
-              src="assets/exclamation_mark.png"
+              src="assets/exclamation_mark2.png"
               alt="exclamation mark"
             />
           </Fragment>
@@ -58,7 +58,7 @@ export default function ApiList() {
           <Fragment>
             <img
               className="max-w-[3rem]"
-              src="assets/exclamation_mark.png"
+              src="assets/exclamation_mark2.png"
               alt="exclamation mark"
             />
           </Fragment>
@@ -70,7 +70,7 @@ export default function ApiList() {
           <Fragment>
             <img
               className="max-w-[3rem]"
-              src="assets/exclamation_mark.png"
+              src="assets/exclamation_mark2.png"
               alt="exclamation mark"
             />
           </Fragment>
@@ -82,7 +82,7 @@ export default function ApiList() {
           <Fragment>
             <img
               className="max-w-[3rem]"
-              src="assets/exclamation_mark.png"
+              src="assets/exclamation_mark2.png"
               alt="exclamation mark"
             />
           </Fragment>
@@ -94,7 +94,7 @@ export default function ApiList() {
           <Fragment>
             <img
               className="max-w-[3rem]"
-              src="assets/exclamation_mark.png"
+              src="assets/exclamation_mark2.png"
               alt="exclamation mark"
             />
           </Fragment>
@@ -106,7 +106,7 @@ export default function ApiList() {
           <Fragment>
             <img
               className="max-w-[3rem]"
-              src="assets/exclamation_mark.png"
+              src="assets/exclamation_mark2.png"
               alt="exclamation mark"
             />
           </Fragment>
@@ -118,7 +118,7 @@ export default function ApiList() {
           <Fragment>
             <img
               className="max-w-[3rem]"
-              src="assets/exclamation_mark.png"
+              src="assets/exclamation_mark2.png"
               alt="exclamation mark"
             />
           </Fragment>
@@ -130,7 +130,7 @@ export default function ApiList() {
           <Fragment>
             <img
               className="max-w-[3rem]"
-              src="assets/exclamation_mark.png"
+              src="assets/exclamation_mark2.png"
               alt="exclamation mark"
             />
           </Fragment>
@@ -142,7 +142,7 @@ export default function ApiList() {
           <Fragment>
             <img
               className="max-w-[3rem]"
-              src="assets/exclamation_mark.png"
+              src="assets/exclamation_mark2.png"
               alt="exclamation mark"
             />
           </Fragment>

@@ -15,7 +15,7 @@ export default function Traders() {
           <h1 className="uppercase font-sans-2 italic font-bold text-3xl text-center">
             Kereskedők
           </h1>
-          <div className="grid grid-cols-[repeat(auto-fit,_minmax(30rem,_1fr))] gap-10">
+          <div className="grid sm:grid-cols-[repeat(auto-fit,_minmax(22rem,_1fr))] gap-10">
             <Trader
               href="https://steamcommunity.com/id/evertson01/"
               src="assets/steam_evertson.png"
