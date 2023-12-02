@@ -24,11 +24,11 @@ export default {
           300: "#8b272c",
         },
         neutral: {
-          900: "#101010",
+          900: "#000000",
         },
       },
       backgroundImage: {
-        body: "linear-gradient(120deg, #230e0e 0%, #410f0e 100%)",
+        body: "radial-gradient(farthest-corner circle at 50% 50%, #3d0f0e 0%, #1f0e0d 100%)",
       },
       fontFamily: {
         "sans-1": ["Roboto", "system-ui", "sans-serif"],
