@@ -23,6 +23,9 @@ export default {
           400: "#441918",
           300: "#8b272c",
         },
+        neutral: {
+          900: "#101010",
+        },
       },
       backgroundImage: {
         body: "linear-gradient(120deg, #230e0e 0%, #410f0e 100%)",
