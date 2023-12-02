@@ -35,9 +35,9 @@ export default function MainHeader() {
             </NavItem>
           </ul>
         </nav>
-        <button className="text-lg">
+        {/* <button className="text-lg">
           <i class="fa-solid fa-bars"></i>
-        </button>
+        </button> */}
       </Container>
     </header>
   );
