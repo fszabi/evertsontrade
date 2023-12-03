@@ -3,7 +3,12 @@ import FormInput from "./FormInput";
 
 export default function Form() {
   return (
-    <form className="space-y-10 grid place-items-center" method="POST">
+    <form
+      className="space-y-10 grid place-items-center"
+      name="contact"
+      netlify
+      method="POST"
+    >
       <FormInput
         required
         forAttribute="name"
