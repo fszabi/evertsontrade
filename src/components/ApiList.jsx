@@ -27,7 +27,7 @@ const apiBodies = {
 
 export default function ApiList() {
   return (
-    <ul className="space-y-10">
+    <ul className="divide-y">
       <ApiListItem
         body={apiBodies.firstApiTip}
         icon={

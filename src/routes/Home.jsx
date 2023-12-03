@@ -1,5 +1,5 @@
 import Container from "../components/Container";
-import ScrollArrow from "../components/ScrollArrow";
+import StepList from "../components/StepList";
 import Section from "../components/Section";
 import React, { useEffect } from "react";
 
@@ -12,15 +12,18 @@ export default function Home() {
     <>
       <main>
         <Section>
-          <Container customStyles="text-center space-y-10">
+          <Container>
             <header>
-              <h1 className="uppercase font-sans-2 italic font-bold text-3xl">
+              <h1 className="text-center uppercase font-sans-2 italic font-bold text-3xl">
                 Magyarország legnagyobb skin cashout oldala
               </h1>
             </header>
-            <div className="grid grid-cols-2 place-items-center">
-              <img className="max-h-64" src="assets/box.png" alt="gift" />
-              <a target="_blank" href="https://discord.com/invite/2Yf3zP7CMQ">
+            <div className="grid place-items-center">
+              <a
+                className="hover:opacity-70 duration-300"
+                target="_blank"
+                href="https://discord.com/invite/2Yf3zP7CMQ"
+              >
                 <img
                   className="max-h-40"
                   src="assets/discord.png"
@@ -29,7 +32,7 @@ export default function Home() {
               </a>
             </div>
 
-            <p className="text-xl">
+            <p className="text-xl text-center">
               Folyamatos nyereményjátékok Discordon szerverünkön
             </p>
           </Container>
@@ -43,6 +46,7 @@ export default function Home() {
             />
           </Container>
         </Section>
+        <StepList />
       </main>
     </>
   );

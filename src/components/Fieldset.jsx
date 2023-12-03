@@ -2,6 +2,7 @@ import FormCheckBox from "./FormCheckbox";
 import { useEffect, useRef } from "react";
 
 export default function Fieldset({
+  elements,
   legendText,
   radioId,
   allChecksName,
@@ -17,6 +18,10 @@ export default function Fieldset({
   thirdCheckTitle,
   thirdCheckId,
   thirdCheckValue,
+  fourthCheckAttr,
+  fourthCheckTitle,
+  fourthCheckId,
+  fourthCheckValue,
 }) {
   const componentRef = useRef(null);
 
@@ -81,6 +86,16 @@ export default function Fieldset({
           inputId={thirdCheckId}
           inputValue={thirdCheckValue}
         />
+
+        {elements === "4" && (
+          <FormCheckBox
+            checkName={allChecksName}
+            forAttribute={fourthCheckAttr}
+            title={fourthCheckTitle}
+            inputId={fourthCheckId}
+            inputValue={fourthCheckValue}
+          />
+        )}
       </ul>
     </fieldset>
   );

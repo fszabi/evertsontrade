@@ -24,7 +24,7 @@ const scammerBodies = {
 
 export default function ScammerList() {
   return (
-    <ul className="space-y-10">
+    <ul className="divide-y">
       <ScammerListItem
         body={scammerBodies.firstScamTip}
         icon={

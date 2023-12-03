@@ -1,5 +1,7 @@
 import StepListItem from "./StepListItem";
 import { Fragment } from "react";
+import Section from "./Section";
+import Container from "./Container";
 
 const stepBodies = {
   firstStep: `Menj a kapcsolatfelvétel oldalra, 
@@ -23,56 +25,64 @@ const stepBodies = {
 
 export default function StepList() {
   return (
-    <ul className="space-y-10">
-      <StepListItem
-        title="Első lépés"
-        body={stepBodies.firstStep}
-        icon={
-          <Fragment>
-            <i className="fa-solid fa-envelope"></i>
-          </Fragment>
-        }
-      />
+    <Section>
+      <Container customStyles="space-y-12">
+        <h2 className="text-center uppercase font-sans-2 font-bold text-2xl">
+          Hogyan kereskedj velünk?
+        </h2>
+        <img className="mx-auto" src="assets/cs2_agent.png" alt="cs2 agent" />
+        <ul className="space-y-10">
+          <StepListItem
+            title="Első lépés"
+            body={stepBodies.firstStep}
+            icon={
+              <Fragment>
+                <i className="fa-solid fa-envelope"></i>
+              </Fragment>
+            }
+          />
 
-      <StepListItem
-        title="Második lépés"
-        body={stepBodies.secondStep}
-        icon={
-          <Fragment>
-            <i className="fa-solid fa-people-arrows"></i>
-          </Fragment>
-        }
-      />
+          <StepListItem
+            title="Második lépés"
+            body={stepBodies.secondStep}
+            icon={
+              <Fragment>
+                <i className="fa-solid fa-people-arrows"></i>
+              </Fragment>
+            }
+          />
 
-      <StepListItem
-        title="Harmadik lépés"
-        body={stepBodies.thirdStep}
-        icon={
-          <Fragment>
-            <i className="fa-solid fa-briefcase"></i>
-          </Fragment>
-        }
-      />
+          <StepListItem
+            title="Harmadik lépés"
+            body={stepBodies.thirdStep}
+            icon={
+              <Fragment>
+                <i className="fa-solid fa-briefcase"></i>
+              </Fragment>
+            }
+          />
 
-      <StepListItem
-        title="Negyedik lépés"
-        body={stepBodies.fourthStep}
-        icon={
-          <Fragment>
-            <i className="fa-regular fa-handshake"></i>
-          </Fragment>
-        }
-      />
+          <StepListItem
+            title="Negyedik lépés"
+            body={stepBodies.fourthStep}
+            icon={
+              <Fragment>
+                <i className="fa-regular fa-handshake"></i>
+              </Fragment>
+            }
+          />
 
-      <StepListItem
-        title="Ötödik lépés"
-        body={stepBodies.fifthStep}
-        icon={
-          <Fragment>
-            <i className="fa-solid fa-user-group"></i>
-          </Fragment>
-        }
-      />
-    </ul>
+          <StepListItem
+            title="Ötödik lépés"
+            body={stepBodies.fifthStep}
+            icon={
+              <Fragment>
+                <i className="fa-solid fa-user-group"></i>
+              </Fragment>
+            }
+          />
+        </ul>
+      </Container>
+    </Section>
   );
 }

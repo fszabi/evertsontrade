@@ -20,11 +20,11 @@ export default {
     extend: {
       colors: {
         primary: {
-          400: "#441918",
+          400: "#770000",
           300: "#8b272c",
         },
         neutral: {
-          900: "#080808",
+          900: "#060606",
         },
       },
       backgroundImage: {

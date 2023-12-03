@@ -5,8 +5,8 @@ export default function Form() {
   return (
     <form
       acceptCharset="UTF-8"
-      action="https://formspree.io/f/mdorrvrz"
-      className="space-y-10 grid place-items-center"
+      action="https://www.formbackend.com/f/cd3cfa7b5d5b9adc"
+      className="space-y-12 grid place-items-center"
       name="contact"
       method="POST"
     >
@@ -47,21 +47,26 @@ export default function Form() {
         ></textarea>
       </div>
       <Fieldset
+        elements="4"
         legendText="Szolgáltatás típusa"
         radioId="szolgaltatasok"
         allChecksName="szolgaltatas"
-        firstCheckAttr="middleman"
-        firstCheckTitle="Middleman"
-        firstCheckId="middleman"
-        firstCheckValue="Middleman"
-        secondCheckAttr="skin-sell"
-        secondCheckTitle="Skin eladás"
-        secondCheckId="skin-sell"
-        secondCheckValue="Skin eladás"
-        thirdCheckAttr="valuation"
-        thirdCheckTitle="Értékbecslés"
-        thirdCheckId="valuation"
-        thirdCheckValue="Értékbecslés"
+        firstCheckAttr="trade-up"
+        firstCheckTitle="Trade-Up"
+        firstCheckId="trade-up"
+        firstCheckValue="Trade-Up"
+        secondCheckAttr="middleman"
+        secondCheckTitle="Middleman"
+        secondCheckId="middleman"
+        secondCheckValue="Middleman"
+        thirdCheckAttr="skin-sell"
+        thirdCheckTitle="Skin eladás"
+        thirdCheckId="skin-sell"
+        thirdCheckValue="Skin eladás"
+        fourthCheckAttr="valuation"
+        fourthCheckTitle="Értékbecslés"
+        fourthCheckId="valuation"
+        fourthCheckValue="Értékbecslés"
       />
       <FormInput
         required
@@ -71,15 +76,8 @@ export default function Form() {
         inputId="steam"
         inputName="Steam profil linked"
       />
-      <FormInput
-        required
-        forAttribute="skin"
-        title="Milyen skined lenne eladó (skin név, teljes raktár)"
-        inputType="text"
-        inputId="skin"
-        inputName="Milyen skined lenne eladó (skin név, teljes raktár)"
-      />
       <Fieldset
+        elements="3"
         legendText="Fizetési opció"
         radioId="fizetesi-opciok"
         allChecksName="fizetesi-opcio"
@@ -95,6 +93,14 @@ export default function Form() {
         thirdCheckTitle="Banki átutalás"
         thirdCheckId="bank-transfer"
         thirdCheckValue="Banki utalás"
+      />
+      <FormInput
+        required
+        forAttribute="skin"
+        title="Milyen skined lenne eladó (skin név, teljes raktár)"
+        inputType="text"
+        inputId="skin"
+        inputName="Milyen skined lenne eladó (skin név, teljes raktár)"
       />
       <button
         className="bg-blue-400 py-3 px-6 text-lg rounded-md place-self-start"

@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Container from "./Container";
 import NavItem from "./NavItem";
 import { useState, useEffect } from "react";
 
@@ -23,7 +22,7 @@ export default function MainHeader() {
 
   return (
     <header className="bg-neutral-900 py-3 sticky top-0 left-0 right-0 z-50">
-      <Container customStyles="flex gap-14 justify-between items-center">
+      <div className="container flex gap-14 justify-between items-center">
         <img
           className="z-50 rounded-xl w-16"
           src="assets/logo.webp"
@@ -88,7 +87,7 @@ export default function MainHeader() {
             )}
           ></i>
         </button>
-      </Container>
+      </div>
     </header>
   );
 }

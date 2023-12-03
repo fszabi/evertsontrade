@@ -7,8 +7,8 @@ export default function Footer() {
   return (
     <>
       <footer className="py-20">
-        <Container customStyles="space-y-20">
-          <div className="mx-auto text-center space-y-10 max-w-3xl">
+        <Container>
+          <div className="mx-auto text-center space-y-12 max-w-3xl">
             <a
               target="_blank"
               aria-label="Evertson trade link megnyitása"
@@ -17,19 +17,18 @@ export default function Footer() {
             >
               <i className="fa-brands fa-steam text-xl"></i>
             </a>
-            <div className="space-y-10">
-              <p className="text-lg">
-                Amennyiben esetleg támogatnád az oldal működését skinekkel, a
-                fenti ikonra kattintva tudod megtenni.
-              </p>
-              <p className="leading-relaxed">
-                A támogatásból beérkező skineket teljes mértékben ki fogjuk
-                sorsolni a discord szerveren, hiszen ebből nem szeretnénk
-                nyerészkedni. Támogatni leginkább minket azzal tudsz ha skineket
-                adsz el vagy vásárolsz esetleg tradelsz velünk, illetve ha
-                ajánlasz a barátaidnak.
-              </p>
-            </div>
+
+            <p className="text-lg">
+              Amennyiben esetleg támogatnád az oldal működését skinekkel, a
+              fenti ikonra kattintva tudod megtenni.
+            </p>
+            <p className="leading-relaxed">
+              A támogatásból beérkező skineket teljes mértékben ki fogjuk
+              sorsolni a discord szerveren, hiszen ebből nem szeretnénk
+              nyerészkedni. Támogatni leginkább minket azzal tudsz ha skineket
+              adsz el vagy vásárolsz esetleg tradelsz velünk, illetve ha
+              ajánlasz a barátaidnak.
+            </p>
           </div>
           <ul className="flex justify-center flex-wrap gap-10 font-bold text-lg">
             <FooterItem

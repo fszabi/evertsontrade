@@ -11,7 +11,7 @@ export default function Traders() {
   return (
     <main>
       <Section>
-        <Container customStyles="space-y-10">
+        <Container>
           <h1 className="uppercase font-sans-2 italic font-bold text-3xl text-center">
             Kereskedők
           </h1>

@@ -23,7 +23,7 @@ export default function Services() {
   return (
     <main>
       <Section>
-        <Container customStyles="space-y-10">
+        <Container>
           <h1 className="uppercase font-sans-2 italic font-bold text-3xl text-center">
             Szolgáltatások
           </h1>
