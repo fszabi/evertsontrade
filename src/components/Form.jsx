@@ -6,7 +6,7 @@ export default function Form() {
     <form
       className="space-y-10 grid place-items-center"
       name="contact"
-      netlify
+      data-netlify="true"
       method="POST"
     >
       <FormInput
@@ -85,7 +85,9 @@ export default function Form() {
           />
         </ul>
       </fieldset>
-      <button>sad</button>
+      <button type="submit" value="submit">
+        Submit
+      </button>
     </form>
   );
 }
