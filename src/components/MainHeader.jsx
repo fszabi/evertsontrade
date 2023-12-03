@@ -72,6 +72,7 @@ export default function MainHeader() {
           className="grid [grid-template-areas:'stack'] 
           md:hidden text-lg z-50"
         >
+          <span class="sr-only">Navigációs menü</span>
           <i
             className={`fa-solid fa-bars [grid-area:stack] transition-all duration-500`.concat(
               isNavOpen

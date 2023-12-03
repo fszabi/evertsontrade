@@ -1,8 +1,9 @@
-export default function Trader({ href, src, alt }) {
+export default function Trader({ href, src, alt, aria }) {
   return (
     <a
       target="_blank"
       href={href}
+      aria-label={aria}
       className="relative grid place-items-center group"
     >
       <img

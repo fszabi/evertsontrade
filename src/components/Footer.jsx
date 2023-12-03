@@ -11,6 +11,7 @@ export default function Footer() {
           <div className="mx-auto text-center space-y-10 max-w-3xl">
             <a
               target="_blank"
+              aria-label="Evertson trade link megnyitása"
               href="https://steamcommunity.com/tradeoffer/new/?partner=1061101075&token=SLQ6lxob"
               className="mx-auto flex justify-center items-center rounded-full aspect-square min-h-[3rem] p-3 bg-neutral-900 w-fit hover:opacity-80 duration-300"
             >
