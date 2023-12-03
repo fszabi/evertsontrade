@@ -1,11 +1,11 @@
-import FormCheckBox from "./FormCheckbox";
 import FormInput from "./FormInput";
+import Fieldset from "./Fieldset";
 
 export default function Form() {
   return (
     <form
-      accept-charset="UTF-8"
-      action="https://www.formbackend.com/f/6117d8f104dbef1d"
+      acceptCharset="UTF-8"
+      action="https://formspree.io/f/mdorrvrz"
       className="space-y-10 grid place-items-center"
       name="contact"
       method="POST"
@@ -16,6 +16,7 @@ export default function Form() {
         title="Név"
         inputType="text"
         inputId="name"
+        inputName="Név"
       />
       <FormInput
         required
@@ -23,6 +24,7 @@ export default function Form() {
         title="Discord név/Facebook profil link"
         inputType="text"
         inputId="socials"
+        inputName="Discord/Facebook"
       />
       <FormInput
         required
@@ -30,6 +32,7 @@ export default function Form() {
         title="Email"
         inputType="email"
         inputId="email"
+        inputName="Email cím"
       />
       <div className="space-y-2 w-full">
         <label htmlFor="comment">Megjegyzés</label>
@@ -38,16 +41,35 @@ export default function Form() {
           className="block w-full bg-neutral-900 border-2 rounded-md focus:outline-none
       focus:border-blue-400 py-2 px-4 transition-[border-color] duration-300"
           id="comment"
+          name="Üzenet"
           cols="30"
           rows="10"
         ></textarea>
       </div>
+      <Fieldset
+        legendText="Szolgáltatás típusa"
+        radioId="szolgaltatasok"
+        allChecksName="szolgaltatas"
+        firstCheckAttr="middleman"
+        firstCheckTitle="Middleman"
+        firstCheckId="middleman"
+        firstCheckValue="Middleman"
+        secondCheckAttr="skin-sell"
+        secondCheckTitle="Skin eladás"
+        secondCheckId="skin-sell"
+        secondCheckValue="Skin eladás"
+        thirdCheckAttr="valuation"
+        thirdCheckTitle="Értékbecslés"
+        thirdCheckId="valuation"
+        thirdCheckValue="Értékbecslés"
+      />
       <FormInput
         required
         forAttribute="steam"
         title="Steam profil linked"
         inputType="text"
         inputId="steam"
+        inputName="Steam profil linked"
       />
       <FormInput
         required
@@ -55,39 +77,32 @@ export default function Form() {
         title="Milyen skined lenne eladó (skin név, teljes raktár)"
         inputType="text"
         inputId="skin"
+        inputName="Milyen skined lenne eladó (skin név, teljes raktár)"
       />
-      <fieldset className="w-full space-y-5">
-        <legend
-          className="font-bold text-lg
-        relative after:absolute 
-        after:content-['*'] after:text-blue-400 
-        after:h-7 after:w-7 after:ml-2"
-        >
-          Szolgáltatás típusa
-        </legend>
-        <ul className="space-y-3" required>
-          <FormCheckBox
-            forAttribute="middleman"
-            title="Middleman"
-            inputType="checkbox"
-            inputId="middleman"
-          />
-          <FormCheckBox
-            forAttribute="skin-sell"
-            title="Skin eladás"
-            inputType="checkbox"
-            inputId="skin-sell"
-          />
-          <FormCheckBox
-            forAttribute="valuation"
-            title="Értékbecslés"
-            inputType="checkbox"
-            inputId="valuation"
-          />
-        </ul>
-      </fieldset>
-      <button type="submit" value="submit">
-        Submit
+      <Fieldset
+        legendText="Fizetési opció"
+        radioId="fizetesi-opciok"
+        allChecksName="fizetesi-opcio"
+        firstCheckAttr="crypto"
+        firstCheckTitle="Crypto"
+        firstCheckId="crypto"
+        firstCheckValue="Crypto"
+        secondCheckAttr="revolut"
+        secondCheckTitle="Revolut"
+        secondCheckId="revolut"
+        secondCheckValue="Revolut"
+        thirdCheckAttr="bank-transfer"
+        thirdCheckTitle="Banki átutalás"
+        thirdCheckId="bank-transfer"
+        thirdCheckValue="Banki utalás"
+      />
+      <button
+        className="bg-blue-400 py-3 px-6 text-lg rounded-md place-self-start"
+        type="submit"
+        value="submit"
+        name="submit"
+      >
+        Küldés
       </button>
     </form>
   );

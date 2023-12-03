@@ -20,11 +20,13 @@ export default function Home() {
             </header>
             <div className="grid grid-cols-2 place-items-center">
               <img className="max-h-64" src="assets/box.png" alt="gift" />
-              <img
-                className="max-h-40"
-                src="assets/discord.png"
-                alt="discord"
-              />
+              <a target="_blank" href="https://discord.com/invite/2Yf3zP7CMQ">
+                <img
+                  className="max-h-40"
+                  src="assets/discord.png"
+                  alt="discord"
+                />
+              </a>
             </div>
 
             <p className="text-xl">
