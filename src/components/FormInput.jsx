@@ -8,11 +8,11 @@ export default function Form({
   return (
     <div className="space-y-2 w-full">
       <label
-        className={
+        className={`font-bold`.concat(
           required
             ? " relative after:absolute after:content-['*'] after:text-blue-400 after:h-7 after:w-7 after:ml-2"
             : ""
-        }
+        )}
         htmlFor={forAttribute}
       >
         {title}

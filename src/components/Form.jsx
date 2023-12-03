@@ -1,3 +1,4 @@
+import FormCheckBox from "./FormCheckbox";
 import FormInput from "./FormInput";
 
 export default function Form() {
@@ -49,6 +50,37 @@ export default function Form() {
         inputType="text"
         inputId="skin"
       />
+      <fieldset className="w-full space-y-5">
+        <legend
+          className="font-bold text-lg
+        relative after:absolute 
+        after:content-['*'] after:text-blue-400 
+        after:h-7 after:w-7 after:ml-2"
+        >
+          Szolgáltatás típusa
+        </legend>
+        <ul className="space-y-3" required>
+          <FormCheckBox
+            forAttribute="middleman"
+            title="Middleman"
+            inputType="checkbox"
+            inputId="middleman"
+          />
+          <FormCheckBox
+            forAttribute="skin-sell"
+            title="Skin eladás"
+            inputType="checkbox"
+            inputId="skin-sell"
+          />
+          <FormCheckBox
+            forAttribute="valuation"
+            title="Értékbecslés"
+            inputType="checkbox"
+            inputId="valuation"
+          />
+        </ul>
+      </fieldset>
+      <button>sad</button>
     </form>
   );
 }
