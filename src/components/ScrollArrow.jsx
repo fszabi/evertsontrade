@@ -8,8 +8,6 @@ export default function ScrollArrow() {
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
-        console.log(entry);
-
         if (!entry.isIntersecting) {
           setIsScrollButtonVisible(true);
         } else {

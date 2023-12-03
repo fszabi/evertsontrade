@@ -4,9 +4,10 @@ import FormInput from "./FormInput";
 export default function Form() {
   return (
     <form
+      accept-charset="UTF-8"
+      action="https://www.formbackend.com/f/6117d8f104dbef1d"
       className="space-y-10 grid place-items-center"
       name="contact"
-      data-netlify="true"
       method="POST"
     >
       <FormInput
