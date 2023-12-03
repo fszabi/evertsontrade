@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    --neutral-700: #404040;
+    --neutral-900: #060606;
     --blue-400: #60a5fa;
   }
 
@@ -17,16 +17,16 @@
     @apply bg-body text-neutral-100 font-sans-1 text-base;
   }
 
-  @supports (scrollbar-color: var(--blue-400) var(--neutral-700)) {
+  @supports (scrollbar-color: var(--blue-400) var(--neutral-900)) {
     * {
       scrollbar-width: thin;
-      scrollbar-color: var(--blue-400) var(--neutral-700);
+      scrollbar-color: var(--blue-400) var(--neutral-900);
     }
   }
 
   /* Chrome, Edge, and Safari */
   *::-webkit-scrollbar {
-    background: var(--neutral-700);
+    background: var(--neutral-900);
     width: 0.5rem;
   }
 
@@ -64,23 +64,3 @@
 }
 
 @tailwind utilities;
-
-.custom-shape-divider-top-1701525998 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.custom-shape-divider-top-1701525998 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 150px;
-}
-
-.custom-shape-divider-top-1701525998 .shape-fill {
-  fill: #171717;
-}
