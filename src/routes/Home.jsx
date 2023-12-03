@@ -32,6 +32,15 @@ export default function Home() {
             </p>
           </Container>
         </Section>
+        <Section>
+          <Container>
+            <img
+              className="rounded-lg"
+              src="assets/cs2_banner.webp"
+              alt="cs2 banner"
+            />
+          </Container>
+        </Section>
       </main>
     </>
   );

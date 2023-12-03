@@ -10,7 +10,7 @@ export default function Trader({ href, src, alt }) {
         src={src}
         alt={alt}
       />
-      <i class="fa-brands fa-steam text-xl opacity-0 translate-y-full group-hover:opacity-100 group-hover:translate-y-0 absolute transition-all duration-300"></i>
+      <i className="fa-brands fa-steam text-xl opacity-0 translate-y-full group-hover:opacity-100 group-hover:translate-y-0 absolute transition-all duration-300"></i>
     </a>
   );
 }

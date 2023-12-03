@@ -1,13 +1,12 @@
 import Container from "./Container";
 import FooterItem from "./FooterItem";
 import ScrollArrow from "./ScrollArrow";
-import Section from "./Section";
 import { Fragment } from "react";
 
 export default function Footer() {
   return (
     <>
-      <Section>
+      <footer className="py-20">
         <Container customStyles="space-y-20">
           <div className="mx-auto text-center space-y-10 max-w-3xl">
             <a
@@ -15,7 +14,7 @@ export default function Footer() {
               href="https://steamcommunity.com/tradeoffer/new/?partner=1061101075&token=SLQ6lxob"
               className="mx-auto flex justify-center items-center rounded-full aspect-square min-h-[3rem] p-3 bg-neutral-900 w-fit hover:opacity-80 duration-300"
             >
-              <i class="fa-brands fa-steam text-xl"></i>
+              <i className="fa-brands fa-steam text-xl"></i>
             </a>
             <div className="space-y-10">
               <p className="text-lg">
@@ -36,7 +35,7 @@ export default function Footer() {
               text="21521 Transactions"
               icon={
                 <Fragment>
-                  <i class="fa-solid fa-bag-shopping"></i>
+                  <i className="fa-solid fa-bag-shopping"></i>
                 </Fragment>
               }
             />
@@ -45,7 +44,7 @@ export default function Footer() {
               text="Total Sold: 398 326"
               icon={
                 <Fragment>
-                  <i class="fa-solid fa-money-check-dollar"></i>
+                  <i className="fa-solid fa-money-check-dollar"></i>
                 </Fragment>
               }
             />
@@ -54,7 +53,7 @@ export default function Footer() {
               text="2000+ Happy Customers"
               icon={
                 <Fragment>
-                  <i class="fa-solid fa-face-smile-beam"></i>
+                  <i className="fa-solid fa-face-smile-beam"></i>
                 </Fragment>
               }
             />
@@ -63,13 +62,13 @@ export default function Footer() {
               text="1200+ Feedbacks"
               icon={
                 <Fragment>
-                  <i class="fa-solid fa-comment"></i>
+                  <i className="fa-solid fa-comment"></i>
                 </Fragment>
               }
             />
           </ul>
         </Container>
-      </Section>
+      </footer>
       <ScrollArrow />
     </>
   );

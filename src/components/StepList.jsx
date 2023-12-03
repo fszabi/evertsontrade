@@ -29,7 +29,7 @@ export default function StepList() {
         body={stepBodies.firstStep}
         icon={
           <Fragment>
-            <i class="fa-solid fa-envelope"></i>
+            <i className="fa-solid fa-envelope"></i>
           </Fragment>
         }
       />
@@ -39,7 +39,7 @@ export default function StepList() {
         body={stepBodies.secondStep}
         icon={
           <Fragment>
-            <i class="fa-solid fa-people-arrows"></i>
+            <i className="fa-solid fa-people-arrows"></i>
           </Fragment>
         }
       />
@@ -49,7 +49,7 @@ export default function StepList() {
         body={stepBodies.thirdStep}
         icon={
           <Fragment>
-            <i class="fa-solid fa-briefcase"></i>
+            <i className="fa-solid fa-briefcase"></i>
           </Fragment>
         }
       />
@@ -59,7 +59,7 @@ export default function StepList() {
         body={stepBodies.fourthStep}
         icon={
           <Fragment>
-            <i class="fa-regular fa-handshake"></i>
+            <i className="fa-regular fa-handshake"></i>
           </Fragment>
         }
       />
@@ -69,7 +69,7 @@ export default function StepList() {
         body={stepBodies.fifthStep}
         icon={
           <Fragment>
-            <i class="fa-solid fa-user-group"></i>
+            <i className="fa-solid fa-user-group"></i>
           </Fragment>
         }
       />

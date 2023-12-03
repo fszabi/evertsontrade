@@ -1,6 +1,9 @@
-export default function NavItem({ children }) {
+export default function NavItem({ children, NavStateChange }) {
   return (
-    <li className="hover:text-blue-400 hover:scale-105 transition-all duration-300">
+    <li
+      onClick={NavStateChange}
+      className="hover:text-blue-400 hover:scale-105 transition-all duration-300"
+    >
       {children}
     </li>
   );
