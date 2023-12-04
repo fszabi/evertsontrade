@@ -14,7 +14,9 @@ export default function FormCheckBox({
         id={inputId}
         value={inputValue}
       />
-      <label htmlFor={forAttribute}>{title}</label>
+      <label className="leading-none" htmlFor={forAttribute}>
+        {title}
+      </label>
     </div>
   );
 }
