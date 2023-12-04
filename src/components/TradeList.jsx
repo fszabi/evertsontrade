@@ -40,35 +40,35 @@ const tradeBodies = {
 export default function StepList() {
   return (
     <ul className="divide-y">
-      <TradeListItem body={tradeBodies.firstTrade} />
+      <TradeListItem body={tradeBodies.firstTrade} padding="pb-8" />
 
-      <TradeListItem body={tradeBodies.secondTrade} />
+      <TradeListItem body={tradeBodies.secondTrade} padding="py-8" />
 
-      <TradeListItem body={tradeBodies.thirdTrade} />
+      <TradeListItem body={tradeBodies.thirdTrade} padding="py-8" />
 
-      <TradeListItem body={tradeBodies.fourthTrade} />
+      <TradeListItem body={tradeBodies.fourthTrade} padding="py-8" />
 
-      <TradeListItem body={tradeBodies.fifthTrade} />
+      <TradeListItem body={tradeBodies.fifthTrade} padding="py-8" />
 
-      <TradeListItem body={tradeBodies.sixthTrade} />
+      <TradeListItem body={tradeBodies.sixthTrade} padding="py-8" />
 
-      <TradeListItem body={tradeBodies.seventhTrade} />
+      <TradeListItem body={tradeBodies.seventhTrade} padding="py-8" />
 
-      <TradeListItem body={tradeBodies.eighthTrade} />
+      <TradeListItem body={tradeBodies.eighthTrade} padding="py-8" />
 
-      <TradeListItem body={tradeBodies.ninthTrade} />
+      <TradeListItem body={tradeBodies.ninthTrade} padding="py-8" />
 
-      <TradeListItem body={tradeBodies.tenthTrade} />
+      <TradeListItem body={tradeBodies.tenthTrade} padding="py-8" />
 
-      <TradeListItem body={tradeBodies.eleventhTrade} />
+      <TradeListItem body={tradeBodies.eleventhTrade} padding="py-8" />
 
-      <TradeListItem body={tradeBodies.twelfthTrade} />
+      <TradeListItem body={tradeBodies.twelfthTrade} padding="py-8" />
 
-      <TradeListItem body={tradeBodies.thirteenthTrade} />
+      <TradeListItem body={tradeBodies.thirteenthTrade} padding="py-8" />
 
-      <TradeListItem body={tradeBodies.fourteenthTrade} />
+      <TradeListItem body={tradeBodies.fourteenthTrade} padding="py-8" />
 
-      <TradeListItem body={tradeBodies.fifteenthTrade} />
+      <TradeListItem body={tradeBodies.fifteenthTrade} padding="py-8" />
     </ul>
   );
 }

@@ -26,7 +26,7 @@ export default function Home() {
               >
                 <img
                   className="max-h-40"
-                  src="assets/discord.png"
+                  src="assets/png/discord.png"
                   alt="discord"
                 />
               </a>
@@ -41,7 +41,7 @@ export default function Home() {
           <Container>
             <img
               className="rounded-lg"
-              src="assets/cs2_banner.webp"
+              src="assets/webp/cs2_banner.webp"
               alt="cs2 banner"
             />
           </Container>

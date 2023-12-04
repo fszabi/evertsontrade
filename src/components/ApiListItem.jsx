@@ -1,7 +1,13 @@
-export default function ScammerListItem({ icon, body }) {
+export default function ScammerListItem({ body, padding }) {
   return (
-    <li className="flex max-sm:flex-col gap-5 py-8">
-      <div>{icon}</div>
+    <li className={`flex max-sm:flex-col gap-5`.concat(` ${padding}`)}>
+      <div>
+        <img
+          className="max-w-[3rem]"
+          src="assets/crown.png"
+          alt="exclamation mark"
+        />
+      </div>
       <p>{body}</p>
     </li>
   );

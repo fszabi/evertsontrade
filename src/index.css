@@ -61,6 +61,10 @@
   .container {
     @apply w-[min(100%-3rem,_70rem)] mx-auto;
   }
+
+  .container-wide {
+    @apply w-[min(100%-3rem,_80rem)] mx-auto;
+  }
 }
 
 @tailwind utilities;

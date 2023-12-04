@@ -1,5 +1,4 @@
 import ScammerListItem from "./ScammerListItem";
-import { Fragment } from "react";
 
 const scammerBodies = {
   firstScamTip: `Elsősorban a facebook profil, nézd meg valós személy-e,keress rá más platformon, 
@@ -25,109 +24,21 @@ const scammerBodies = {
 export default function ScammerList() {
   return (
     <ul className="divide-y">
-      <ScammerListItem
-        body={scammerBodies.firstScamTip}
-        icon={
-          <Fragment>
-            <img
-              className="max-w-[3rem]"
-              src="assets/exclamation_mark2.png"
-              alt="exclamation mark"
-            />
-          </Fragment>
-        }
-      />
+      <ScammerListItem body={scammerBodies.firstScamTip} padding="pb-8" />
 
-      <ScammerListItem
-        body={scammerBodies.secondScamTip}
-        icon={
-          <Fragment>
-            <img
-              className="max-w-[3rem]"
-              src="assets/exclamation_mark2.png"
-              alt="exclamation mark"
-            />
-          </Fragment>
-        }
-      />
+      <ScammerListItem body={scammerBodies.secondScamTip} padding="py-8" />
 
-      <ScammerListItem
-        body={scammerBodies.thirdScamTip}
-        icon={
-          <Fragment>
-            <img
-              className="max-w-[3rem]"
-              src="assets/exclamation_mark2.png"
-              alt="exclamation mark"
-            />
-          </Fragment>
-        }
-      />
+      <ScammerListItem body={scammerBodies.thirdScamTip} padding="py-8" />
 
-      <ScammerListItem
-        body={scammerBodies.fourthScamTip}
-        icon={
-          <Fragment>
-            <img
-              className="max-w-[3rem]"
-              src="assets/exclamation_mark2.png"
-              alt="exclamation mark"
-            />
-          </Fragment>
-        }
-      />
+      <ScammerListItem body={scammerBodies.fourthScamTip} padding="py-8" />
 
-      <ScammerListItem
-        body={scammerBodies.fifthScamTip}
-        icon={
-          <Fragment>
-            <img
-              className="max-w-[3rem]"
-              src="assets/exclamation_mark2.png"
-              alt="exclamation mark"
-            />
-          </Fragment>
-        }
-      />
+      <ScammerListItem body={scammerBodies.fifthScamTip} padding="py-8" />
 
-      <ScammerListItem
-        body={scammerBodies.sixthScamTip}
-        icon={
-          <Fragment>
-            <img
-              className="max-w-[3rem]"
-              src="assets/exclamation_mark2.png"
-              alt="exclamation mark"
-            />
-          </Fragment>
-        }
-      />
+      <ScammerListItem body={scammerBodies.sixthScamTip} padding="py-8" />
 
-      <ScammerListItem
-        body={scammerBodies.seventhScamTip}
-        icon={
-          <Fragment>
-            <img
-              className="max-w-[3rem]"
-              src="assets/exclamation_mark2.png"
-              alt="exclamation mark"
-            />
-          </Fragment>
-        }
-      />
+      <ScammerListItem body={scammerBodies.seventhScamTip} padding="py-8" />
 
-      <ScammerListItem
-        body={scammerBodies.eighthScamTip}
-        icon={
-          <Fragment>
-            <img
-              className="max-w-[3rem]"
-              src="assets/exclamation_mark2.png"
-              alt="exclamation mark"
-            />
-          </Fragment>
-        }
-      />
+      <ScammerListItem body={scammerBodies.eighthScamTip} padding="py-8" />
     </ul>
   );
 }

@@ -30,16 +30,16 @@ export default function StepList() {
         <h2 className="text-center uppercase font-sans-2 font-bold text-2xl">
           Hogyan kereskedj velünk?
         </h2>
-        <img className="mx-auto" src="assets/cs2_agent.png" alt="cs2 agent" />
+        <img
+          className="mx-auto"
+          src="assets/png/cs2_agent.png"
+          alt="cs2 agent"
+        />
         <ul className="space-y-10">
           <StepListItem
             title="Első lépés"
             body={stepBodies.firstStep}
-            icon={
-              <Fragment>
-                <i className="fa-solid fa-envelope"></i>
-              </Fragment>
-            }
+            icon={<Fragment></Fragment>}
           />
 
           <StepListItem

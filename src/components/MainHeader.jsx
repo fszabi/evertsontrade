@@ -25,7 +25,7 @@ export default function MainHeader() {
       <div className="container flex gap-14 justify-between items-center">
         <img
           className="z-50 rounded-xl w-16"
-          src="assets/logo.webp"
+          src="assets/webp/logo.webp"
           alt="evertsontrade logo"
         />
 

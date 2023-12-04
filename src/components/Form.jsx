@@ -5,7 +5,7 @@ export default function Form() {
   return (
     <form
       acceptCharset="UTF-8"
-      action="https://www.formbackend.com/f/cd3cfa7b5d5b9adc"
+      action="https://www.formbackend.com/f/1e6ed1bc148cbd4d"
       className="space-y-12 grid place-items-center"
       name="contact"
       method="POST"

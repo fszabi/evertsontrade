@@ -39,6 +39,15 @@ export default function Services() {
           />
         </Container>
       </Section>
+      <Section>
+        <Container>
+          <img
+            className="rounded-lg"
+            src="assets/png/services_bg.png"
+            alt="services bg"
+          />
+        </Container>
+      </Section>
     </main>
   );
 }

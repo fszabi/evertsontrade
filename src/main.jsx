@@ -8,6 +8,7 @@ import Services from "./routes/Services";
 import TradeUp from "./routes/TradeUp";
 import Description from "./routes/Description";
 import Contact from "./routes/Contact";
+import Success from "./routes/Success";
 import "./index.css";
 
 const router = createBrowserRouter([
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
       { path: "/trade-up", element: <TradeUp /> },
       { path: "/leiras", element: <Description /> },
       { path: "/kapcsolatfelvetel", element: <Contact /> },
+      { path: "/siker", element: <Success /> },
     ],
   },
 ]);

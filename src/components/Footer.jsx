@@ -1,5 +1,5 @@
-import Container from "./Container";
 import FooterItem from "./FooterItem";
+import FooterLinks from "./FooterLinks";
 import ScrollArrow from "./ScrollArrow";
 import { Fragment } from "react";
 
@@ -7,15 +7,15 @@ export default function Footer() {
   return (
     <>
       <footer className="py-20">
-        <Container>
+        <div className="container-wide space-y-12">
           <div className="mx-auto text-center space-y-12 max-w-3xl">
             <a
               target="_blank"
               aria-label="Evertson trade link megnyitása"
               href="https://steamcommunity.com/tradeoffer/new/?partner=1061101075&token=SLQ6lxob"
-              className="mx-auto flex justify-center items-center rounded-full aspect-square min-h-[3rem] p-3 bg-neutral-900 w-fit hover:opacity-80 duration-300"
+              className="mx-auto flex justify-center items-center rounded-full aspect-square h-[5rem] bg-neutral-900 w-fit hover:opacity-80 duration-300"
             >
-              <i className="fa-brands fa-steam text-xl"></i>
+              <i className="fa-brands fa-steam text-2xl"></i>
             </a>
 
             <p className="text-lg">
@@ -67,7 +67,8 @@ export default function Footer() {
               }
             />
           </ul>
-        </Container>
+          <FooterLinks />
+        </div>
       </footer>
       <ScrollArrow />
     </>

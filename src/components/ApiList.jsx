@@ -1,5 +1,4 @@
 import ApiListItem from "./ApiListItem";
-import { Fragment } from "react";
 
 const apiBodies = {
   firstApiTip: `Elsősorban mindig jelentkezzetek be a saját webböngészőtökből 
@@ -28,126 +27,16 @@ const apiBodies = {
 export default function ApiList() {
   return (
     <ul className="divide-y">
-      <ApiListItem
-        body={apiBodies.firstApiTip}
-        icon={
-          <Fragment>
-            <img
-              className="max-w-[3rem]"
-              src="assets/exclamation_mark2.png"
-              alt="exclamation mark"
-            />
-          </Fragment>
-        }
-      />
-      <ApiListItem
-        body={apiBodies.secondApiTip}
-        icon={
-          <Fragment>
-            <img
-              className="max-w-[3rem]"
-              src="assets/exclamation_mark2.png"
-              alt="exclamation mark"
-            />
-          </Fragment>
-        }
-      />
-      <ApiListItem
-        body={apiBodies.thirdApiTip}
-        icon={
-          <Fragment>
-            <img
-              className="max-w-[3rem]"
-              src="assets/exclamation_mark2.png"
-              alt="exclamation mark"
-            />
-          </Fragment>
-        }
-      />
-      <ApiListItem
-        body={apiBodies.fourthApiTip}
-        icon={
-          <Fragment>
-            <img
-              className="max-w-[3rem]"
-              src="assets/exclamation_mark2.png"
-              alt="exclamation mark"
-            />
-          </Fragment>
-        }
-      />
-      <ApiListItem
-        body={apiBodies.fifthApiTip}
-        icon={
-          <Fragment>
-            <img
-              className="max-w-[3rem]"
-              src="assets/exclamation_mark2.png"
-              alt="exclamation mark"
-            />
-          </Fragment>
-        }
-      />
-      <ApiListItem
-        body={apiBodies.sixthApiTip}
-        icon={
-          <Fragment>
-            <img
-              className="max-w-[3rem]"
-              src="assets/exclamation_mark2.png"
-              alt="exclamation mark"
-            />
-          </Fragment>
-        }
-      />
-      <ApiListItem
-        body={apiBodies.seventhApiTip}
-        icon={
-          <Fragment>
-            <img
-              className="max-w-[3rem]"
-              src="assets/exclamation_mark2.png"
-              alt="exclamation mark"
-            />
-          </Fragment>
-        }
-      />
-      <ApiListItem
-        body={apiBodies.eighthApiTip}
-        icon={
-          <Fragment>
-            <img
-              className="max-w-[3rem]"
-              src="assets/exclamation_mark2.png"
-              alt="exclamation mark"
-            />
-          </Fragment>
-        }
-      />
-      <ApiListItem
-        body={apiBodies.ninthApiTip}
-        icon={
-          <Fragment>
-            <img
-              className="max-w-[3rem]"
-              src="assets/exclamation_mark2.png"
-              alt="exclamation mark"
-            />
-          </Fragment>
-        }
-      />
-      <ApiListItem
-        body={apiBodies.tenthApiTip}
-        icon={
-          <Fragment>
-            <img
-              className="max-w-[3rem]"
-              src="assets/exclamation_mark2.png"
-              alt="exclamation mark"
-            />
-          </Fragment>
-        }
-      />
+      <ApiListItem body={apiBodies.firstApiTip} padding="pb-8" />
+      <ApiListItem body={apiBodies.secondApiTip} padding="py-8" />
+      <ApiListItem body={apiBodies.thirdApiTip} padding="py-8" />
+      <ApiListItem body={apiBodies.fourthApiTip} padding="py-8" />
+      <ApiListItem body={apiBodies.fifthApiTip} padding="py-8" />
+      <ApiListItem body={apiBodies.sixthApiTip} padding="py-8" />
+      <ApiListItem body={apiBodies.seventhApiTip} padding="py-8" />
+      <ApiListItem body={apiBodies.eighthApiTip} padding="py-8" />
+      <ApiListItem body={apiBodies.ninthApiTip} padding="py-8" />
+      <ApiListItem body={apiBodies.tenthApiTip} padding="py-8" />
     </ul>
   );
 }
