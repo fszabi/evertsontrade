@@ -6,15 +6,17 @@ export default function FormCheckBox({
   inputValue,
 }) {
   return (
-    <div className="space-x-3 w-full">
+    <div className="flex items-center gap-3 w-full">
       <input
-        className="relative appearance-none w-6 h-6 border-[3px] border-blue-400 checked:bg-blue-400 transition-colors ease-linear checked:before:absolute"
+        className="relative appearance-none w-6 h-6 border-[3px] border-blue-400"
         type="checkbox"
         name={checkName}
         id={inputId}
         value={inputValue}
       />
-      <label htmlFor={forAttribute}>{title}</label>
+      <label className="leading-none" htmlFor={forAttribute}>
+        {title}
+      </label>
     </div>
   );
 }
