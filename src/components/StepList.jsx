@@ -39,7 +39,11 @@ export default function StepList() {
           <StepListItem
             title="Első lépés"
             body={stepBodies.firstStep}
-            icon={<Fragment></Fragment>}
+            icon={
+              <Fragment>
+                <i className="fa-solid fa-envelope"></i>
+              </Fragment>
+            }
           />
 
           <StepListItem
