@@ -9,7 +9,7 @@ export default {
       xl: "80em",
     },
     fontSize: {
-      sm: ["0.875rem", "1.5"],
+      sm: ["1rem", "1.5"],
       base: ["1.125rem", "1.5"],
       lg: ["1.375rem", "1.4"],
       xl: ["clamp(1.56rem, 0.79vw + 1.36rem, 1.8rem)", "1.3"],

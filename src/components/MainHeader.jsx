@@ -23,11 +23,14 @@ export default function MainHeader() {
   return (
     <header className="bg-neutral-900 py-3 sticky top-0 left-0 right-0 z-50">
       <div className="container flex gap-14 justify-between items-center">
-        <img
-          className="z-50 rounded-xl w-16"
-          src="assets/webp/logo.webp"
-          alt="evertsontrade logo"
-        />
+        <picture>
+          <source srcset="assets/webp/logo.webp" />
+          <img
+            className="rounded-xl z-50 w-16 h-16"
+            src="assets/jpg/logo.jpg"
+            alt="evertsontrade logo"
+          />
+        </picture>
 
         <nav>
           <ul

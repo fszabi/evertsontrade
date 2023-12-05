@@ -3,13 +3,17 @@ import { Fragment } from "react";
 
 export default function FooterLinks() {
   return (
-    <ul className="flex justify-center gap-10">
+    <ul className="flex justify-center gap-20 bg-neutral-900 rounded-lg w-fit mx-auto px-10 py-4">
       <FooterLink
         href="https://discord.com/invite/2Yf3zP7CMQ"
         aria="discord link"
         icon={
           <Fragment>
-            <i class="fa-brands fa-discord"></i>
+            <img
+              className="w-12 h-12"
+              src="assets/svg/discord.svg"
+              alt="discord svg"
+            />
           </Fragment>
         }
       />
@@ -19,7 +23,11 @@ export default function FooterLinks() {
         aria="twitch link"
         icon={
           <Fragment>
-            <i class="fa-brands fa-twitch"></i>
+            <img
+              className="w-12 h-12"
+              src="assets/svg/twitch.svg"
+              alt="twitch svg"
+            />
           </Fragment>
         }
       />
@@ -29,7 +37,11 @@ export default function FooterLinks() {
         aria="facebook link"
         icon={
           <Fragment>
-            <i class="fa-brands fa-facebook"></i>
+            <img
+              className="w-12 h-12"
+              src="assets/svg/facebook.svg"
+              alt="facebook svg"
+            />
           </Fragment>
         }
       />

@@ -14,7 +14,7 @@ export default function Home() {
         <Section>
           <Container>
             <header>
-              <h1 className="text-center uppercase font-sans-2 italic font-bold text-3xl">
+              <h1 className="text-center uppercase font-sans-2 italic font-bold text-3xl max-sm:text-2xl">
                 Magyarország legnagyobb skin cashout oldala
               </h1>
             </header>
@@ -28,7 +28,7 @@ export default function Home() {
                 <picture>
                   <source srcset="assets/webp/discord.webp" />
                   <img
-                    className="max-h-40"
+                    className="h-32 w-32 max-sm:w-24 max-sm:h-24 object-cover"
                     src="assets/png/discord.png"
                     alt="discord"
                   />
@@ -36,7 +36,7 @@ export default function Home() {
               </a>
             </div>
 
-            <p className="text-xl text-center">
+            <p className="text-xl max-sm:text-lg text-center">
               Folyamatos nyereményjátékok Discordon szerverünkön
             </p>
           </Container>

@@ -34,7 +34,7 @@ export default function TradeUp() {
       </Section>
       <Section>
         <Container>
-          <h2 className="uppercase font-sans-2 italic font-bold text-2xl text-center">
+          <h2 className="uppercase font-sans-2 font-bold text-2xl text-center">
             Trade-Up Lényege
           </h2>
           <p className="text-center">
@@ -61,7 +61,7 @@ export default function TradeUp() {
       </Section>
       <Section>
         <Container>
-          <h2 className="uppercase font-sans-2 italic font-bold text-2xl text-center">
+          <h2 className="uppercase font-sans-2 font-bold text-2xl text-center">
             Mutatok pár példát hogyan lehet ezekből a skinekből profitálni
           </h2>
           <ExampleList />
@@ -69,7 +69,7 @@ export default function TradeUp() {
       </Section>
       <Section>
         <Container>
-          <h2 className="uppercase font-sans-2 italic font-bold text-2xl text-center">
+          <h2 className="uppercase font-sans-2 font-bold text-2xl text-center">
             Néhány trade offer
           </h2>
           <Offers />
@@ -77,7 +77,7 @@ export default function TradeUp() {
       </Section>
       <Section>
         <Container>
-          <h2 className="uppercase font-sans-2 italic font-bold text-2xl text-center">
+          <h2 className="uppercase font-sans-2 font-bold text-2xl text-center">
             Tudnivalók
           </h2>
           <TradeUpList />
@@ -85,7 +85,7 @@ export default function TradeUp() {
       </Section>
       <Section>
         <Container>
-          <h2 className="uppercase font-sans-2 italic font-bold text-2xl text-center">
+          <h2 className="uppercase font-sans-2 font-bold text-2xl text-center">
             Eddigi eredmények
           </h2>
           <picture>
@@ -108,7 +108,7 @@ export default function TradeUp() {
       </Section>
       <Section>
         <Container>
-          <h2 className="uppercase font-sans-2 italic font-bold text-2xl text-center">
+          <h2 className="uppercase font-sans-2 font-bold text-2xl text-center">
             Befektetők
           </h2>
           <Investors />

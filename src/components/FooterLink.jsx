@@ -1,12 +1,7 @@
 export default function FooterLink({ href, icon, aria }) {
   return (
-    <li className="text-xl">
-      <a
-        className="mx-auto flex justify-center items-center rounded-full aspect-square h-[4rem] bg-neutral-900 w-fit hover:opacity-80 duration-300"
-        target="_blank"
-        aria-label={aria}
-        href={href}
-      >
+    <li className="text-xl hover:opacity-50 hover:scale-105 transition-all duration-300">
+      <a target="_blank" aria-label={aria} href={href}>
         {icon}
       </a>
     </li>
