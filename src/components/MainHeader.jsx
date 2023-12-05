@@ -23,7 +23,7 @@ export default function MainHeader() {
   return (
     <header className="bg-neutral-900 py-3 sticky top-0 left-0 right-0 z-50">
       <div className="container flex gap-14 justify-between items-center">
-        <picture>
+        <picture className="z-50">
           <source srcset="assets/webp/logo.webp" />
           <img
             className="rounded-xl z-50 w-16 h-16"
@@ -71,24 +71,46 @@ export default function MainHeader() {
         </nav>
         <button
           onClick={onNavStateChange}
-          className="grid [grid-template-areas:'stack'] 
+          className="grid place-items-center [grid-template-areas:'stack'] 
           md:hidden text-lg z-50"
         >
           <span className="sr-only">Navigációs menü</span>
-          <i
-            className={`fa-solid fa-bars [grid-area:stack] transition-all duration-500`.concat(
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class={`w-9 h-9 [grid-area:stack] transition-all duration-500`.concat(
               isNavOpen
                 ? " max-md:invisible max-md:opacity-0"
                 : " max-md:visible max-md:opacity-100"
             )}
-          ></i>
-          <i
-            className={`fa-solid fa-x [grid-area:stack] transition-all duration-500`.concat(
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class={`w-9 h-9 [grid-area:stack] transition-all duration-500`.concat(
               isNavOpen
                 ? " max-md:visible max-md:opacity-100"
                 : " max-md:invisible max-md:opacity-0"
             )}
-          ></i>
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
         </button>
       </div>
     </header>

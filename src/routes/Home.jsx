@@ -50,7 +50,7 @@ export default function Home() {
               />
               <source srcset="assets/webp_phone/cs2_banner_phone.webp" />
               <img
-                className="rounded-lg mx-auto"
+                className="rounded-lg mx-auto w-full object-cover max-sm:max-w-[25rem]"
                 src="assets/jpg/cs2_banner.jpg"
                 alt="cs2 banner"
               />
