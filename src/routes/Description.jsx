@@ -17,7 +17,11 @@ export default function Description() {
           <h1 className="text-center uppercase font-sans-2 font-bold italic text-3xl">
             Trade és Scam alapok!
           </h1>
-          <img className="rounded-lg" src="assets/scam.jpg" alt="scam" />
+          <picture>
+            <source media="(min-width: 500px)" srcset="assets/webp/scam.webp" />
+            <source srcset="assets/webp_phone/scam_phone.webp" />
+            <img className="rounded-lg" src="assets/jpg/scam.jpg" alt="scam" />
+          </picture>
         </Container>
       </Section>
       <Section>

@@ -41,11 +41,18 @@ export default function Services() {
       </Section>
       <Section>
         <Container>
-          <img
-            className="rounded-lg"
-            src="assets/png/services_bg.png"
-            alt="services bg"
-          />
+          <picture>
+            <source
+              media="(min-width: 500px)"
+              srcset="assets/webp/services_bg.webp"
+            />
+            <source srcset="assets/webp_phone/services_bg_phone.webp" />
+            <img
+              className="rounded-lg"
+              src="assets/png/services_bg.png"
+              alt="services bg"
+            />
+          </picture>
         </Container>
       </Section>
     </main>

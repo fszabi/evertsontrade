@@ -6,7 +6,7 @@ import { Fragment } from "react";
 export default function Footer() {
   return (
     <>
-      <footer className="py-20">
+      <footer className="py-20 max-sm:py-10">
         <div className="container-wide space-y-12">
           <div className="mx-auto text-center space-y-12 max-w-3xl">
             <a

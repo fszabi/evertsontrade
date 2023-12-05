@@ -30,11 +30,15 @@ export default function StepList() {
         <h2 className="text-center uppercase font-sans-2 font-bold text-2xl">
           Hogyan kereskedj velünk?
         </h2>
-        <img
-          className="mx-auto"
-          src="assets/png/cs2_agent.png"
-          alt="cs2 agent"
-        />
+        <picture>
+          <source srcset="assets/webp/cs2_agent.webp" />
+          <img
+            className="mx-auto"
+            src="assets/png/cs2_agent.png"
+            alt="cs2 agent"
+          />
+        </picture>
+
         <ul className="space-y-10">
           <StepListItem
             title="Első lépés"
