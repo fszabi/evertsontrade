@@ -26,7 +26,7 @@ export default function Home() {
               >
                 <img
                   className="max-h-40"
-                  src="assets/png/discord.png"
+                  src="assets/webp/discord.webp"
                   alt="discord"
                 />
               </a>
