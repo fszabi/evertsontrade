@@ -21,9 +21,9 @@ export default function TradeUp() {
           <picture>
             <source
               media="(min-width: 500px)"
-              srcset="assets/webp/evertson_trade.webp"
+              srcSet="assets/webp/evertson_trade.webp"
             />
-            <source srcset="assets/webp_phone/evertson_trade_phone.webp" />
+            <source srcSet="assets/webp_phone/evertson_trade_phone.webp" />
             <img
               className="rounded-lg"
               src="assets/png/evertson_trade.png"
@@ -48,9 +48,9 @@ export default function TradeUp() {
           <picture>
             <source
               media="(min-width: 500px)"
-              srcset="assets/webp/pricempire.webp"
+              srcSet="assets/webp/pricempire.webp"
             />
-            <source srcset="assets/webp_phone/pricempire_phone.webp" />
+            <source srcSet="assets/webp_phone/pricempire_phone.webp" />
             <img
               className="rounded-lg"
               src="assets/png/pricempire.png"
@@ -89,7 +89,7 @@ export default function TradeUp() {
             Eddigi eredmények
           </h2>
           <picture>
-            <source srcset="assets/webp/trade_stats.webp" />
+            <source srcSet="assets/webp/trade_stats.webp" />
             <img
               className="mx-auto"
               src="assets/png/trade_stats.png"
@@ -99,9 +99,9 @@ export default function TradeUp() {
           <picture>
             <source
               media="(min-width: 500px)"
-              srcset="assets/webp/excel.webp"
+              srcSet="assets/webp/excel.webp"
             />
-            <source srcset="assets/webp_phone/excel_phone.webp" />
+            <source srcSet="assets/webp_phone/excel_phone.webp" />
             <img src="assets/png/excel.png" alt="excel" />
           </picture>
         </Container>

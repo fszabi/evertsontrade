@@ -3,7 +3,7 @@ export default function TradeListItem({ body, padding }) {
     <li className={`flex max-sm:flex-col gap-5`.concat(` ${padding}`)}>
       <div>
         <picture>
-          <source srcset="assets/webp/crown.webp" />
+          <source srcSet="assets/webp/crown.webp" />
           <img
             className="max-w-[3rem]"
             src="assets/png/crown.png"

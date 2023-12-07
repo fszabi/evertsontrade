@@ -2,6 +2,7 @@ export default function Form({
   required,
   forAttribute,
   title,
+  inputPattern,
   inputType,
   inputId,
   inputName,
@@ -21,9 +22,7 @@ export default function Form({
       <input
         className="block w-full bg-neutral-900 border-2 rounded-md focus:outline-none
       focus:border-blue-400 py-2 px-4 transition-[border-color] duration-300"
-        pattern={
-          inputType === "email" && "[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,}$"
-        }
+        pattern={inputPattern}
         type={inputType}
         id={inputId}
         name={inputName}

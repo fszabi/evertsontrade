@@ -14,8 +14,8 @@ export default function Trader({
       className="relative grid place-items-center group"
     >
       <picture>
-        <source media="(min-width: 500px)" srcset={src} />
-        <source srcset={src_phone} />
+        <source media="(min-width: 500px)" srcSet={src} />
+        <source srcSet={src_phone} />
         <img
           className="min-h-[20rem] object-cover rounded-lg group-hover:opacity-50 transition-opacity duration-300"
           src={src_fallback}

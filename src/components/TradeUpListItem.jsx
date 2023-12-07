@@ -3,7 +3,7 @@ export default function TradeUpListItem({ body }) {
     <li className="flex max-sm:flex-col gap-5 py-8">
       <div>
         <picture>
-          <source srcset="assets/webp/crown.webp" />
+          <source srcSet="assets/webp/crown.webp" />
           <img
             className="max-w-[3rem]"
             src="assets/png/crown.png"

@@ -18,8 +18,8 @@ export default function Description() {
             Trade és Scam alapok!
           </h1>
           <picture>
-            <source media="(min-width: 500px)" srcset="assets/webp/scam.webp" />
-            <source srcset="assets/webp_phone/scam_phone.webp" />
+            <source media="(min-width: 500px)" srcSet="assets/webp/scam.webp" />
+            <source srcSet="assets/webp_phone/scam_phone.webp" />
             <img className="rounded-lg" src="assets/jpg/scam.jpg" alt="scam" />
           </picture>
         </Container>

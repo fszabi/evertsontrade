@@ -1,8 +1,30 @@
 import { Link } from "react-router-dom";
 import NavItem from "./NavItem";
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
+
+{
+  /* <div className="space-x-20">
+  {Object.keys(lngs).map((lng) => (
+    <button
+      key={lng}
+      className={i18n.resolvedLanguage === lng ? "text-blue-400" : ""}
+      type="submit"
+      onClick={() => i18n.changeLanguage(lng)}
+    >
+      {lngs[lng].nativeName}
+    </button>
+  ))}
+</div>; */
+}
+
+// const lngs = {
+//   hu: { nativeName: "Hungarian" },
+// };
 
 export default function MainHeader() {
+  const { t, i18n } = useTranslation();
+
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   function onNavStateChange() {
@@ -24,7 +46,7 @@ export default function MainHeader() {
     <header className="bg-neutral-900 py-3 sticky top-0 left-0 right-0 z-50">
       <div className="container flex gap-14 justify-between items-center">
         <picture className="z-50">
-          <source srcset="assets/webp/logo.webp" />
+          <source srcSet="assets/webp/logo.webp" />
           <img
             className="rounded-xl z-50 w-16 h-16"
             src="assets/jpg/logo.jpg"
@@ -79,17 +101,17 @@ export default function MainHeader() {
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            stroke-width="1.5"
+            strokeWidth="1.5"
             stroke="currentColor"
-            class={`w-9 h-9 [grid-area:stack] transition-all duration-500`.concat(
+            className={`w-9 h-9 [grid-area:stack] transition-all duration-500`.concat(
               isNavOpen
                 ? " max-md:invisible max-md:opacity-0"
                 : " max-md:visible max-md:opacity-100"
             )}
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
             />
           </svg>
@@ -97,17 +119,17 @@ export default function MainHeader() {
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            stroke-width="1.5"
+            strokeWidth="1.5"
             stroke="currentColor"
-            class={`w-9 h-9 [grid-area:stack] transition-all duration-500`.concat(
+            className={`w-9 h-9 [grid-area:stack] transition-all duration-500`.concat(
               isNavOpen
                 ? " max-md:visible max-md:opacity-100"
                 : " max-md:invisible max-md:opacity-0"
             )}
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               d="M6 18L18 6M6 6l12 12"
             />
           </svg>

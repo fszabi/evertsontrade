@@ -9,20 +9,72 @@ import TradeUp from "./routes/TradeUp";
 import Description from "./routes/Description";
 import Contact from "./routes/Contact";
 import Success from "./routes/Success";
+import { Suspense } from "react";
 import "./index.css";
+
+import "../i18n";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <RootLayout />,
     children: [
-      { path: "/", element: <Home /> },
-      { path: "/kereskedok", element: <Traders /> },
-      { path: "/szolgaltatasok", element: <Services /> },
-      { path: "/trade-up", element: <TradeUp /> },
-      { path: "/leiras", element: <Description /> },
-      { path: "/kapcsolatfelvetel", element: <Contact /> },
-      { path: "/siker", element: <Success /> },
+      {
+        path: "/",
+        element: (
+          <Suspense fallback="...is loading">
+            <Home />
+          </Suspense>
+        ),
+      },
+      {
+        path: "/kereskedok",
+        element: (
+          <Suspense fallback="...is loading">
+            <Traders />{" "}
+          </Suspense>
+        ),
+      },
+      {
+        path: "/szolgaltatasok",
+        element: (
+          <Suspense fallback="...is loading">
+            <Services />
+          </Suspense>
+        ),
+      },
+      {
+        path: "/trade-up",
+        element: (
+          <Suspense fallback="...is loading">
+            <TradeUp />
+          </Suspense>
+        ),
+      },
+      {
+        path: "/leiras",
+        element: (
+          <Suspense fallback="...is loading">
+            <Description />
+          </Suspense>
+        ),
+      },
+      {
+        path: "/kapcsolatfelvetel",
+        element: (
+          <Suspense fallback="...is loading">
+            <Contact />
+          </Suspense>
+        ),
+      },
+      {
+        path: "/siker",
+        element: (
+          <Suspense fallback="...is loading">
+            <Success />
+          </Suspense>
+        ),
+      },
     ],
   },
 ]);

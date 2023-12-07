@@ -30,6 +30,7 @@ export default function Form() {
         required
         forAttribute="email"
         title="Email"
+        inputPattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,}$"
         inputType="email"
         inputId="email"
         inputName="Email cím"

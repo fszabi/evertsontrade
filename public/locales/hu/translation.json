@@ -1,0 +1,31 @@
+{
+  "home": {
+    "intro": {
+      "title": "Magyarország legnagyobb skin cashout oldala",
+      "subtitle": "Folyamatos nyereményjátékok Discordon szerverünkön"
+    },
+    "steps": {
+      "title": "Hogyan kereskedj velünk?",
+      "step1": {
+        "title": "Első lépés",
+        "text": "Menj a kapcsolatfelvétel oldalra, majd töltsd ki helyesen a mintát és küldd el."
+      },
+      "step2": {
+        "title": "Második lépés",
+        "text": "Felvesszük veled a kapcsolatot a megadott elérhetőségeid egyikén."
+      },
+      "step3": {
+        "title": "Harmadik lépés",
+        "text": "Kapsz egy árajánlatot, illetve megmondjuk, hogy melyik traderrel kell felvenned a kapcsolatot."
+      },
+      "step4": {
+        "title": "Negyedik lépés",
+        "text": "Amennyiben elfogadtad az ajánlatunkat el kell küldened a megadott tradernek a skinjeidet és megjegyzésbe oda kell írnod a teljes nevedet és a számlaszámodat, vagy ahhoz az egyéb fizetési opcióhoz tartozó adataidat, amit választottál. Amint az adott trader észreveszi az offered el fogja fogadni és átutalja neked a megbeszélt összeget."
+      },
+      "step5": {
+        "title": "Ötödik lépés",
+        "text": "Ha elégedett vagy velünk, akkor kérlek ajánlj a barátaidnak."
+      }
+    }
+  }
+}
