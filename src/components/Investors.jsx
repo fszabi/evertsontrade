@@ -4,9 +4,9 @@ export default function Investors() {
   return (
     <div className="list-none grid sm:grid-cols-[repeat(auto-fit,_minmax(22rem,_1fr))] gap-10">
       <Investor
-        src="assets/webp/tradeup_member.webp"
-        src_phone="assets/webp_phone/tradeup_member_phone.webp"
-        src_fallback="assets/png/tradeup_member.png"
+        src="assets/webp/tradeup_member_1.webp"
+        src_phone="assets/webp_phone/tradeup_member_1_phone.webp"
+        src_fallback="assets/png/tradeup_member_1.png"
         alt="tradeup member one"
       />
 
