@@ -8,10 +8,6 @@
     --blue-400: #60a5fa;
   }
 
-  html {
-    @apply scroll-smooth;
-  }
-
   body {
     @apply bg-body text-neutral-100 font-sans-1 text-base;
   }

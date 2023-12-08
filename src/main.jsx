@@ -9,6 +9,7 @@ import TradeUp from "./routes/TradeUp";
 import Description from "./routes/Description";
 import Contact from "./routes/Contact";
 import Success from "./routes/Success";
+import ScrollToTop from "./components/ScrollToTop";
 import { Suspense } from "react";
 import "./index.css";
 
@@ -23,6 +24,7 @@ const router = createBrowserRouter([
         path: "/",
         element: (
           <Suspense fallback="...is loading">
+            <ScrollToTop />
             <Home />
           </Suspense>
         ),
@@ -31,7 +33,8 @@ const router = createBrowserRouter([
         path: "/kereskedok",
         element: (
           <Suspense fallback="...is loading">
-            <Traders />{" "}
+            <ScrollToTop />
+            <Traders />
           </Suspense>
         ),
       },
@@ -39,6 +42,7 @@ const router = createBrowserRouter([
         path: "/szolgaltatasok",
         element: (
           <Suspense fallback="...is loading">
+            <ScrollToTop />
             <Services />
           </Suspense>
         ),
@@ -47,6 +51,7 @@ const router = createBrowserRouter([
         path: "/trade-up",
         element: (
           <Suspense fallback="...is loading">
+            <ScrollToTop />
             <TradeUp />
           </Suspense>
         ),
@@ -55,6 +60,7 @@ const router = createBrowserRouter([
         path: "/leiras",
         element: (
           <Suspense fallback="...is loading">
+            <ScrollToTop />
             <Description />
           </Suspense>
         ),
@@ -63,6 +69,7 @@ const router = createBrowserRouter([
         path: "/kapcsolatfelvetel",
         element: (
           <Suspense fallback="...is loading">
+            <ScrollToTop />
             <Contact />
           </Suspense>
         ),
@@ -71,6 +78,7 @@ const router = createBrowserRouter([
         path: "/siker",
         element: (
           <Suspense fallback="...is loading">
+            <ScrollToTop />
             <Success />
           </Suspense>
         ),
