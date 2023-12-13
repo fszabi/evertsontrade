@@ -10,6 +10,11 @@
     @apply bg-body text-neutral-100 font-sans text-base;
   }
 
+  h1,
+  h2 {
+    word-wrap: break-word;
+  }
+
   @supports (scrollbar-color: var(--blue-400) var(--neutral-900)) {
     * {
       scrollbar-width: thin;
