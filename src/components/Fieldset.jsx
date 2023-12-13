@@ -50,7 +50,7 @@ export default function Fieldset({
   return (
     <fieldset ref={componentRef} className="w-full space-y-5">
       <legend
-        className="font-bold text-lg
+        className="font-medium 
         relative after:absolute 
         after:content-['*'] after:text-blue-400 
         after:h-7 after:w-7 after:ml-2"

@@ -36,7 +36,9 @@ export default function Form() {
         inputName="Email cím"
       />
       <div className="space-y-2 w-full">
-        <label htmlFor="comment">Megjegyzés</label>
+        <label className="font-medium " htmlFor="comment">
+          Megjegyzés
+        </label>
 
         <textarea
           className="block w-full bg-neutral-900 border-2 rounded-md focus:outline-none
