@@ -13,7 +13,7 @@ export default function Home() {
         <Section>
           <Container>
             <header>
-              <h1 className="text-center uppercase font-sans-2 italic font-bold text-3xl">
+              <h1 className="text-center uppercase italic font-bold text-3xl">
                 Siker!
               </h1>
             </header>

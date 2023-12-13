@@ -17,7 +17,7 @@ export default function Home() {
         <Section>
           <Container>
             <header>
-              <h1 className="text-center uppercase font-sans-2 italic font-bold text-3xl max-sm:text-2xl">
+              <h1 className="text-center uppercase italic font-bold text-3xl max-sm:text-2xl">
                 {t("home.intro.title")}
               </h1>
             </header>

@@ -14,7 +14,7 @@ export default function Description() {
     <main>
       <Section>
         <Container>
-          <h1 className="text-center uppercase font-sans-2 font-bold italic text-3xl">
+          <h1 className="text-center uppercase font-bold italic text-3xl">
             Trade és Scam alapok!
           </h1>
           <picture>
@@ -26,7 +26,7 @@ export default function Description() {
       </Section>
       <Section>
         <Container>
-          <h2 className="text-center uppercase font-sans-2 font-bold text-2xl">
+          <h2 className="text-center uppercase font-bold text-2xl">
             Hogyan ismerj fel egy magyar scammert?
           </h2>
           <ScammerList />
@@ -35,7 +35,7 @@ export default function Description() {
 
       <Section>
         <Container>
-          <h2 className="uppercase font-sans-2 font-bold text-2xl text-center">
+          <h2 className="uppercase font-bold text-2xl text-center">
             Mi az az API scam és hogyan kerülheted el?
           </h2>
           <p className="text-center">
@@ -49,7 +49,7 @@ export default function Description() {
       </Section>
       <Section>
         <Container>
-          <h2 className="text-center uppercase font-sans-2 font-bold text-2xl">
+          <h2 className="text-center uppercase font-bold text-2xl">
             API scam oldalakról általános tudnivalók
           </h2>
           <ApiList />
@@ -57,7 +57,7 @@ export default function Description() {
       </Section>
       <Section>
         <Container>
-          <h2 className="text-center uppercase font-sans-2 font-bold text-2xl">
+          <h2 className="text-center uppercase font-bold text-2xl">
             A tradeléssel kapcsolatos alapok
           </h2>
           <TradeList />

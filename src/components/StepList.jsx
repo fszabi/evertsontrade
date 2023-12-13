@@ -10,7 +10,7 @@ export default function StepList() {
   return (
     <Section>
       <Container customStyles="space-y-12">
-        <h2 className="text-center uppercase font-sans-2 font-bold text-2xl max-sm:text-xl">
+        <h2 className="text-center uppercase font-bold text-2xl max-sm:text-xl">
           {t("home.steps.title")}
         </h2>
         <picture>

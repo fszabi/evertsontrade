@@ -12,7 +12,7 @@ export default function Traders() {
     <main>
       <Section>
         <Container>
-          <h1 className="uppercase font-sans-2 italic font-bold text-3xl max-sm:text-2xl text-center">
+          <h1 className="uppercase italic font-bold text-3xl max-sm:text-2xl text-center">
             Kereskedők
           </h1>
           <div className="grid sm:grid-cols-[repeat(auto-fit,_minmax(22rem,_1fr))] gap-10">

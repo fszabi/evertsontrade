@@ -34,7 +34,7 @@ export default function Footer() {
               ajánlasz a barátaidnak.
             </p>
           </div>
-          <ul className="flex justify-center flex-wrap gap-10 font-bold text-lg max-sm:text-base">
+          <ul className="flex justify-center flex-wrap gap-10 font-medium text-lg max-sm:text-base">
             <FooterItem
               text="21521 Transactions"
               icon={

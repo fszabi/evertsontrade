@@ -12,7 +12,7 @@ export default function Contact() {
     <main>
       <Section>
         <Container>
-          <h1 className="uppercase font-sans-2 italic font-bold text-3xl text-center">
+          <h1 className="uppercase italic font-bold text-3xl text-center">
             Kapcsolatfelvétel
           </h1>
           <Form />
