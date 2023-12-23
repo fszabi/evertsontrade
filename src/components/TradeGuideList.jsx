@@ -3,8 +3,7 @@ import TradeGuideListItem from "./TradeGuideListItem";
 const tradeGuideTexts = {
   firstTradeGuideText: ` Mivel sokan nincsennek képben a skinek áraival ezért összeállitottam
   egy rövid útmutatót.`,
-  secondTradeGuideText: `1. Elsősorban szükséged lesz a csgotrader.app-ra amit hozzá kell adnod a böngészőhöz: 
-  https://chrome.google.com/webstore/detail/csgo-trader-steam-trading/kaibcgikagnkfgjnibflebpldakfhfih`,
+  secondTradeGuideText: `1. Elsősorban szükséged lesz a csgotrader.app-ra amit hozzá kell adnod a böngészőhöz: `,
   thirdTradeGuideText: `2. Amint ez sikerült utána az adott böngésződben meg kell keresned a bővitményeket majd a csgotrader.appot 
   és a beállitásoknál a pricingot kell megkeresned. Ezek után a providernél beállitod a BUFF163- BUFF starting at (by pricempire.com) -ot.`,
   fourthTradeGuideText: `Innentől ha a saját vagy bárki raktárát megnyitod láthatod a valós értékét. Természetesen ez nem mutatja a ritka 
@@ -31,6 +30,7 @@ export default function TradeGuideList() {
       <TradeGuideListItem
         body={tradeGuideTexts.secondTradeGuideText}
         padding="py-8"
+        href="https://chrome.google.com/webstore/detail/csgo-trader-steam-trading/kaibcgikagnkfgjnibflebpldakfhfih"
       />
 
       <TradeGuideListItem

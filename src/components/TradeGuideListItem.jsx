@@ -1,4 +1,4 @@
-export default function TradeGuideListItem({ body, padding }) {
+export default function TradeGuideListItem({ body, padding, href }) {
   return (
     <li className={`flex max-sm:flex-col gap-5`.concat(` ${padding}`)}>
       <div>
@@ -12,7 +12,16 @@ export default function TradeGuideListItem({ body, padding }) {
           />
         </picture>
       </div>
-      <p>{body}</p>
+      {href ? (
+        <p>
+          {body}
+          <a className="text-blue-400 underline" target="_blank" href={href}>
+            https://chrome.google.com/webstore/detail/csgo-trader-steam-trading/kaibcgikagnkfgjnibflebpldakfhfih
+          </a>
+        </p>
+      ) : (
+        <p>{body}</p>
+      )}
     </li>
   );
 }
