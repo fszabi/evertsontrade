@@ -22,7 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-*.txt
-*.xml
 
-
+robots.txt
+sitemap.xml
