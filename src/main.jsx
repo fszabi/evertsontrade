@@ -4,11 +4,13 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import RootLayout from "./routes/RootLayout";
 import Home from "./routes/Home";
 import Traders from "./routes/Traders";
+import TradeGuide from "./routes/TradeGuide";
 import Services from "./routes/Services";
 import TradeUp from "./routes/TradeUp";
-import Description from "./routes/Description";
+import ScamDescription from "./routes/ScamDescription";
 import Contact from "./routes/Contact";
 import Success from "./routes/Success";
+import SkinRenting from "./routes/SkinRenting";
 import ScrollToTop from "./components/ScrollToTop";
 import { Suspense } from "react";
 import "./index.css";
@@ -57,11 +59,29 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: "/leiras",
+        path: "/skin-berles",
         element: (
           <Suspense fallback="...is loading">
             <ScrollToTop />
-            <Description />
+            <SkinRenting />
+          </Suspense>
+        ),
+      },
+      {
+        path: "/trade-alapok",
+        element: (
+          <Suspense fallback="...is loading">
+            <ScrollToTop />
+            <TradeGuide />
+          </Suspense>
+        ),
+      },
+      {
+        path: "/scam-leiras",
+        element: (
+          <Suspense fallback="...is loading">
+            <ScrollToTop />
+            <ScamDescription />
           </Suspense>
         ),
       },

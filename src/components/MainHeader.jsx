@@ -44,11 +44,11 @@ export default function MainHeader() {
 
   return (
     <header className="bg-neutral-900 py-3 sticky top-0 left-0 right-0 z-50">
-      <div className="container flex gap-14 justify-between items-center">
-        <picture className="z-50">
+      <div className="container-wide flex gap-14 justify-between items-center">
+        <picture className="z-50 basis-16 flex-grow-0 flex-shrink-0">
           <source srcSet="assets/webp/logo.webp" />
           <img
-            className="rounded-xl z-50 w-16 h-16"
+            className="rounded-xl z-50"
             src="assets/jpg/logo.jpg"
             alt="evertsontrade logo"
           />
@@ -83,7 +83,15 @@ export default function MainHeader() {
             </NavItem>
 
             <NavItem NavStateChange={onNavStateChange}>
-              <Link to="/leiras">Leírás</Link>
+              <Link to="/skin-berles">Skin-Bérlés</Link>
+            </NavItem>
+
+            <NavItem NavStateChange={onNavStateChange}>
+              <Link to="/trade-alapok">Trade-Alapok</Link>
+            </NavItem>
+
+            <NavItem NavStateChange={onNavStateChange}>
+              <Link to="/scam-leiras">Scam-Leírás</Link>
             </NavItem>
 
             <NavItem NavStateChange={onNavStateChange}>
