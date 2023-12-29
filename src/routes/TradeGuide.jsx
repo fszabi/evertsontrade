@@ -44,7 +44,7 @@ export default function TradeGuide() {
                 srcSet="assets/webp/gamerpay.webp"
                 media="(min-width: 500px)"
               />
-              <source srcSet="assets/webp_phone/gamerpay.webp" />
+              <source srcSet="assets/webp_phone/gamerpay_phone.webp" />
               <img
                 className="rounded-lg w-full"
                 src="assets/png/gamerpay.png"
@@ -64,7 +64,7 @@ export default function TradeGuide() {
               srcSet="assets/webp/sticker_position.webp"
               media="(min-width: 500px)"
             />
-            <source srcSet="assets/webp_phone/sticker_position.webp" />
+            <source srcSet="assets/webp_phone/sticker_position_phone.webp" />
             <img
               className="rounded-lg w-full"
               src="assets/png/sticker_position.png"
@@ -90,7 +90,7 @@ export default function TradeGuide() {
                 srcSet="assets/webp/blue_gem.webp"
                 media="(min-width: 500px)"
               />
-              <source srcSet="assets/webp_phone/blue_gem.webp" />
+              <source srcSet="assets/webp_phone/blue_gem_phone.webp" />
               <img
                 className="rounded-lg w-full"
                 src="assets/png/blue_gem.png"
@@ -108,7 +108,7 @@ export default function TradeGuide() {
                 srcSet="assets/webp/gold_gem.webp"
                 media="(min-width: 500px)"
               />
-              <source srcSet="assets/webp_phone/gold_gem.webp" />
+              <source srcSet="assets/webp_phone/gold_gem_phone.webp" />
               <img
                 className="rounded-lg w-full"
                 src="assets/png/gold_gem.png"
