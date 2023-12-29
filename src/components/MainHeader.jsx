@@ -91,6 +91,10 @@ export default function MainHeader() {
             </NavItem>
 
             <NavItem NavStateChange={onNavStateChange}>
+              <Link to="/trade-oldalak">Trade-Oldalak</Link>
+            </NavItem>
+
+            <NavItem NavStateChange={onNavStateChange}>
               <Link to="/scam-leiras">Scam-Leírás</Link>
             </NavItem>
 

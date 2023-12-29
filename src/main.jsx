@@ -10,6 +10,7 @@ import TradeUp from "./routes/TradeUp";
 import ScamDescription from "./routes/ScamDescription";
 import Contact from "./routes/Contact";
 import Success from "./routes/Success";
+import TradeSites from "./routes/TradeSites";
 import SkinRenting from "./routes/SkinRenting";
 import ScrollToTop from "./components/ScrollToTop";
 import { Suspense } from "react";
@@ -73,6 +74,15 @@ const router = createBrowserRouter([
           <Suspense fallback="...is loading">
             <ScrollToTop />
             <TradeGuide />
+          </Suspense>
+        ),
+      },
+      {
+        path: "/trade-oldalak",
+        element: (
+          <Suspense fallback="...is loading">
+            <ScrollToTop />
+            <TradeSites />
           </Suspense>
         ),
       },

@@ -1,4 +1,4 @@
-export default function TradeGuideListItem({ body, padding, href }) {
+export default function StickerListItem({ body, padding, href }) {
   return (
     <li className={`flex max-sm:flex-col gap-5`.concat(` ${padding}`)}>
       <div>
