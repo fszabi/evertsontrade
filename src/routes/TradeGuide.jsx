@@ -87,10 +87,10 @@ export default function TradeGuide() {
               srcSet="assets/webp/dreamhack2013.webp"
               media="(min-width: 500px)"
             />
-            <source srcSet="assets/webp_phone/dreamhack2013.webp" />
+            <source srcSet="assets/webp_phone/dreamhack2013_phone.webp" />
             <img
               className="rounded-lg w-full"
-              src="assets/webp/dreamhack2013.webp"
+              src="assets/png/dreamhack2013.png"
               alt="dreamhack 2013"
             />
           </picture>
@@ -160,10 +160,10 @@ export default function TradeGuide() {
               srcSet="assets/webp/marble.webp"
               media="(min-width: 500px)"
             />
-            <source srcSet="assets/webp/marble.webp" />
+            <source srcSet="assets/webp_phone/marble_phone.webp" />
             <img
               className="rounded-lg w-full"
-              src="assets/webp/marble.webp"
+              src="assets/png/marble.png"
               alt="marble"
             />
           </picture>
@@ -172,10 +172,10 @@ export default function TradeGuide() {
               srcSet="assets/webp/doppler.webp"
               media="(min-width: 500px)"
             />
-            <source srcSet="assets/webp/doppler.webp" />
+            <source srcSet="assets/webp_phone/doppler_phone.webp" />
             <img
               className="rounded-lg w-full"
-              src="assets/webp/doppler.webp"
+              src="assets/png/doppler.png"
               alt="doppler"
             />
           </picture>
