@@ -15,7 +15,11 @@ export default function TradeGuideListItem({ body, padding, href }) {
       {href ? (
         <p>
           {body}
-          <a className="text-blue-400 underline" target="_blank" href={href}>
+          <a
+            className="text-blue-400 underline break-all"
+            target="_blank"
+            href={href}
+          >
             {href}
           </a>
         </p>
