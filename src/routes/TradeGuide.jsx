@@ -3,6 +3,8 @@ import Section from "../components/Section";
 import TradeGuideList from "../components/TradeGuideList";
 import StickerList from "../components/StickerList";
 import Gems from "../components/Gems";
+import DreamHack from "../components/DreamHack";
+import MarbleAndDoppler from "../components/MarbleAndDoppler";
 import { useEffect } from "react";
 
 export default function TradeGuide() {
@@ -77,8 +79,36 @@ export default function TradeGuide() {
       <Section>
         <Container>
           <h2 className="text-center uppercase font-bold max-sm:text-xl text-2xl">
+            DreamHack 2013 Souvenir Skinek
+          </h2>
+          <DreamHack />
+          <picture>
+            <source
+              srcSet="assets/webp/dreamhack2013.webp"
+              media="(min-width: 500px)"
+            />
+            <source srcSet="assets/webp_phone/dreamhack2013.webp" />
+            <img
+              className="rounded-lg w-full"
+              src="assets/webp/dreamhack2013.webp"
+              alt="dreamhack 2013"
+            />
+          </picture>
+        </Container>
+      </Section>
+      <Section>
+        <Container>
+          <h2 className="text-center uppercase font-bold max-sm:text-xl text-2xl">
             Blue és Gold Gem-ek
           </h2>
+          <iframe
+            className="mx-auto rounded-lg w-full h-[560px]"
+            src="https://www.youtube.com/embed/ezsPv0n0gEM"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
           <Gems />
           <a
             className="block"
@@ -116,6 +146,39 @@ export default function TradeGuide() {
               />
             </picture>
           </a>
+        </Container>
+      </Section>
+      <Section>
+        <Container>
+          <h2 className="text-center uppercase font-bold max-sm:text-xl text-2xl">
+            Marble Fade és Dopplerek
+          </h2>
+
+          <MarbleAndDoppler />
+          <picture>
+            <source
+              srcSet="assets/webp/marble.webp"
+              media="(min-width: 500px)"
+            />
+            <source srcSet="assets/webp/marble.webp" />
+            <img
+              className="rounded-lg w-full"
+              src="assets/webp/marble.webp"
+              alt="marble"
+            />
+          </picture>
+          <picture>
+            <source
+              srcSet="assets/webp/doppler.webp"
+              media="(min-width: 500px)"
+            />
+            <source srcSet="assets/webp/doppler.webp" />
+            <img
+              className="rounded-lg w-full"
+              src="assets/webp/doppler.webp"
+              alt="doppler"
+            />
+          </picture>
         </Container>
       </Section>
     </main>

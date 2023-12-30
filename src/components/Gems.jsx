@@ -3,7 +3,7 @@ import GemsItem from "./GemsItem";
 const gemsBodies = {
   firstGemsBody: `Az összes késből található case hardened változat illetve Hydra kesztyű, AK-47, Five-Seven és Mac-10-ből.`,
   secondGemsBody: `Röviden annyit érdemes tudni ezekről a skinekről, hogy több mint ezer változatban dobhat egy adott case hardened skint. 
-  Ritka esetben szinte teljesen kékből vagy sárgából kerül kinyitásra az adott skin aminek az értéke több 1000 eurótól egészen 1.500.000 euróig is terjedhet.`,
+  Ritka esetben szinte teljesen kékből vagy sárgából kerül kinyitásra az adott skin aminek az értéke több 1000 dollártól egészen 1.400.000 dollárig is terjedhet.`,
   thirdGemsBody: `A Blue gemeket ezen az oldalon tudod megnézni: `,
   fourthGemsBody: `A Gold gemeket ezen az oldalon tudod megnézni: `,
 };
