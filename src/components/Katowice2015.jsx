@@ -4,7 +4,7 @@ const katowice2015Bodies = {
   firstKatowice2015Body: `Hasonló illetve néhány matrica drágább árban van mint a DreamHack 2014es matricák. 
   Rengeteg szép craftot lehet belőlük késziteni és szintén közkedveltek a gyűjtők és játékosok körében.`,
   secondKatowice2015Body: `Akár a matrica értékének a 10-15%át is el lehet kérni túlfizetésként ha az megfelelő pozicióban van felragasztva az adott fegyverre.`,
-  thirdKatowice2015Body: `Akár még a steam profilodat is szebbé teheted velük ha van jelenlegi árfolyamon 1.579.000 FT-ot erre.`,
+  thirdKatowice2015Body: `Akár még a steam profilodat is szebbé teheted velük ha van jelenlegi árfolyamon 1.579.000 FT-od erre.`,
 };
 
 export default function Katowice2015() {

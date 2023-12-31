@@ -14,6 +14,7 @@ import Float from "../components/Float";
 import LowFloat from "../components/LowFloat";
 import HighFloat from "../components/HighFloat";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export default function TradeGuide() {
   useEffect(() => {
@@ -231,8 +232,12 @@ export default function TradeGuide() {
             Hol találhatsz matricás skineket?
           </h2>
           <p className="text-lg max-sm:text-base text-center">
-            A leggyakrabban trade oldalakon viszont van egy weboldal aminek a
-            segitségével akár steamen is találhatsz craftokat.
+            A leggyakrabban{" "}
+            <Link className="text-blue-400 underline" to="/trade-oldalak">
+              trade oldalakon
+            </Link>
+            , viszont van egy weboldal aminek a segitségével akár steamen is
+            találhatsz craftokat.
             <a
               className="block text-blue-400 underline break-all"
               href="https://www.csgostickersearch.com/"
