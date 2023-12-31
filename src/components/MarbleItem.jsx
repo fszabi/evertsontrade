@@ -1,4 +1,4 @@
-export default function DreamHackItem({ body, padding }) {
+export default function MarbleItem({ body, padding }) {
   return (
     <li className={`flex max-sm:flex-col gap-5`.concat(` ${padding}`)}>
       <div>

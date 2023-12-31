@@ -1,4 +1,4 @@
-export default function MarbleAndDopplerItem({ body, padding }) {
+export default function DopplerItem({ body, padding }) {
   return (
     <li className={`flex max-sm:flex-col gap-5`.concat(` ${padding}`)}>
       <div>

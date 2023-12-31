@@ -21,6 +21,18 @@ export default function Home() {
                 {t("home.intro.title")}
               </h1>
             </header>
+            <picture>
+              <source
+                media="(min-width: 500px)"
+                srcSet="assets/webp/giveaway.webp"
+              />
+              <source srcSet="assets/webp_phone/giveaway_phone.webp" />
+              <img
+                className="rounded-lg mx-auto w-full object-cover max-sm:max-w-[25rem]"
+                src="assets/png/giveaway.png"
+                alt="giveaway"
+              />
+            </picture>
             <div className="grid place-items-center">
               <a
                 className="hover:opacity-70 duration-300"

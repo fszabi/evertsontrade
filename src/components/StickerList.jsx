@@ -2,7 +2,7 @@ import StickerListItem from "./StickerListItem";
 
 const stickerListBodies = {
   firstStickerBody: `A legkönnyebben egy ritka matricás skin árát úgy tudod meghatározni, hogy beszorzod a matrica értékét 0.03-al, 
-  általában 1-3% overpayt érnek meg a katowice 14,15 illetve a régi értékesebb matricás fegyverek. Viszont ezt az árat nagyban befolyásolja 
+  általában 1-3% overpayt érnek meg a Katowice 14,15 illetve a régi értékesebb matricás fegyverek. Viszont ezt az árat nagyban befolyásolja 
   a pozició és a matrica kopottsági értéke. Amennyiben egy matrica kopott sajnos fele annyit/se ér mintha nem lenne kopva. Ezen az útmutatón találsz egy részletes leirást minden fegyvernél külön: `,
   secondStickerBody: `Természetesen vannak nehezebben és könnyebben eladható craftok, az alábbi két 
   képen egy tier listát látsz a Katowice 2014-es matricákról. Az első a papir a második a holo-s tier list. `,
