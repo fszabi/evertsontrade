@@ -1,14 +1,9 @@
 import Container from "../components/Container";
 import StepList from "../components/StepList";
 import Section from "../components/Section";
-import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 export default function Home() {
-  useEffect(() => {
-    document.title = "Kezdőlap - evertsontrade.com";
-  }, []);
-
   const { t } = useTranslation();
 
   return (

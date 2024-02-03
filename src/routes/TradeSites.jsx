@@ -1,15 +1,7 @@
 import Container from "../components/Container";
 import Section from "../components/Section";
-import TradeGuideList from "../components/TradeGuideList";
-import StickerList from "../components/StickerList";
-import Gems from "../components/Gems";
-import { useEffect } from "react";
 
 export default function TradeGuide() {
-  useEffect(() => {
-    document.title = "Trade-Oldalak - evertsontrade.com";
-  }, []);
-
   return (
     <main>
       <Section>

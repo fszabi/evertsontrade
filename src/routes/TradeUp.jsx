@@ -4,13 +4,8 @@ import TradeUpList from "../components/TradeUpList";
 import ExampleList from "../components/ExampleList";
 import Offers from "../components/Offers";
 import Investors from "../components/Investors";
-import { useEffect } from "react";
 
 export default function TradeUp() {
-  useEffect(() => {
-    document.title = "Trade-Up - evertsontrade.com";
-  }, []);
-
   return (
     <main>
       <Section>

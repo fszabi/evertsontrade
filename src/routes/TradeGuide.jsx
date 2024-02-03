@@ -13,14 +13,9 @@ import Katowice2015 from "../components/Katowice2015";
 import Float from "../components/Float";
 import LowFloat from "../components/LowFloat";
 import HighFloat from "../components/HighFloat";
-import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 export default function TradeGuide() {
-  useEffect(() => {
-    document.title = "Trade-Alapok - evertsontrade.com";
-  }, []);
-
   return (
     <main>
       <Section>

@@ -1,13 +1,8 @@
-import React, { useEffect } from "react";
 import Section from "../components/Section";
 import Container from "../components/Container";
 import Trader from "../components/Trader";
 
 export default function Traders() {
-  useEffect(() => {
-    document.title = "Kereskedők - evertsontrade.com";
-  }, []);
-
   return (
     <main>
       <Section>

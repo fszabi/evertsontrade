@@ -1,12 +1,7 @@
 import Container from "../components/Container";
 import Section from "../components/Section";
-import React, { useEffect } from "react";
 
 export default function Home() {
-  useEffect(() => {
-    document.title = "Siker - evertsontrade.com";
-  }, []);
-
   return (
     <>
       <main>

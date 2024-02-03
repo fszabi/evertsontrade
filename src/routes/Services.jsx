@@ -1,7 +1,6 @@
 import Container from "../components/Container";
 import Section from "../components/Section";
 import ServiceCard from "../components/ServiceCard";
-import { useEffect } from "react";
 
 const cardBodies = {
   middlemanBody: `Amennyiben vásárolni vagy skint szeretnél eladni más személynek de nem tudtok dűlőre jutni, hogy ki adjon 
@@ -16,10 +15,6 @@ const cardBodies = {
 };
 
 export default function Services() {
-  useEffect(() => {
-    document.title = "Szolgáltatások - evertsontrade.com";
-  }, []);
-
   return (
     <main>
       <Section>

@@ -1,16 +1,11 @@
 import Container from "../components/Container";
 import Section from "../components/Section";
 import SkinRentingList from "../components/SkinRentingList";
-import { useEffect } from "react";
 import SkinRentingSteps from "../components/SkinRentingSteps";
 import SkinRentingWorth from "../components/SkinRentingWorth";
 import SkinRentingWorthTwo from "../components/SkinRentingWorthTwo";
 
 export default function SkinRenting() {
-  useEffect(() => {
-    document.title = "Skin Bérlés - evertsontrade.com";
-  }, []);
-
   return (
     <main>
       <Section>

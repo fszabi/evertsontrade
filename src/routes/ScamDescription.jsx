@@ -1,15 +1,10 @@
 import Container from "../components/Container";
 import Section from "../components/Section";
-import { useEffect } from "react";
 import ScammerList from "../components/ScammerList";
 import TradeList from "../components/TradeList";
 import ApiList from "../components/ApiList";
 
 export default function Description() {
-  useEffect(() => {
-    document.title = "Leírás - evertsontrade.com";
-  }, []);
-
   return (
     <main>
       <Section>
