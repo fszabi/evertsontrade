@@ -36,11 +36,6 @@ const router = createBrowserRouter([
                   property="og:title"
                   content="Kezdőlap - evertsontrade.com"
                 />
-                <meta
-                  property="og:image"
-                  content="https://evertsontrade.com/assets/og_img.jpg"
-                />
-                <meta property="og:image:type" content="image/jpg" />
                 <meta property="og:url" content="https://evertsontrade.com/" />
                 <meta
                   name="description"
@@ -66,6 +61,15 @@ const router = createBrowserRouter([
             <HelmetProvider>
               <Helmet>
                 <title>Kereskedők - evertsontrade.com</title>
+                <meta
+                  property="og:title"
+                  content="Kereskedők - evertsontrade.com"
+                />
+
+                <meta
+                  property="og:url"
+                  content="https://evertsontrade.com/kereskedok"
+                />
               </Helmet>
               <Traders />
             </HelmetProvider>
@@ -80,6 +84,15 @@ const router = createBrowserRouter([
             <HelmetProvider>
               <Helmet>
                 <title>Szolgáltatások - evertsontrade.com</title>
+                <meta
+                  property="og:title"
+                  content="Szolgáltatások - evertsontrade.com"
+                />
+
+                <meta
+                  property="og:url"
+                  content="https://evertsontrade.com/szolgaltatasok"
+                />
               </Helmet>
               <Services />
             </HelmetProvider>
@@ -94,6 +107,15 @@ const router = createBrowserRouter([
             <HelmetProvider>
               <Helmet>
                 <title>Trade-Up - evertsontrade.com</title>
+                <meta
+                  property="og:title"
+                  content="Trade-Up - evertsontrade.com"
+                />
+
+                <meta
+                  property="og:url"
+                  content="https://evertsontrade.com/trade-up"
+                />
               </Helmet>
               <TradeUp />
             </HelmetProvider>
@@ -108,6 +130,15 @@ const router = createBrowserRouter([
             <HelmetProvider>
               <Helmet>
                 <title>Skin Bérlés - evertsontrade.com</title>
+                <meta
+                  property="og:title"
+                  content="Skin Bérlés - evertsontrade.com"
+                />
+
+                <meta
+                  property="og:url"
+                  content="https://evertsontrade.com/skin-berles"
+                />
               </Helmet>
               <SkinRenting />
             </HelmetProvider>
@@ -122,6 +153,15 @@ const router = createBrowserRouter([
             <HelmetProvider>
               <Helmet>
                 <title>Trade-Alapok - evertsontrade.com</title>
+                <meta
+                  property="og:title"
+                  content="Trade-Alapok - evertsontrade.com"
+                />
+
+                <meta
+                  property="og:url"
+                  content="https://evertsontrade.com/trade-alapok"
+                />
               </Helmet>
               <TradeGuide />
             </HelmetProvider>
@@ -136,6 +176,15 @@ const router = createBrowserRouter([
             <HelmetProvider>
               <Helmet>
                 <title>Trade-Oldalak - evertsontrade.com</title>
+                <meta
+                  property="og:title"
+                  content="Trade-Oldalak - evertsontrade.com"
+                />
+
+                <meta
+                  property="og:url"
+                  content="https://evertsontrade.com/trade-oldalak"
+                />
               </Helmet>
               <TradeSites />
             </HelmetProvider>
@@ -150,6 +199,15 @@ const router = createBrowserRouter([
             <HelmetProvider>
               <Helmet>
                 <title>Leírás - evertsontrade.com</title>
+                <meta
+                  property="og:title"
+                  content="Leírás - evertsontrade.com"
+                />
+
+                <meta
+                  property="og:url"
+                  content="https://evertsontrade.com/scam-leiras"
+                />
               </Helmet>
               <ScamDescription />
             </HelmetProvider>
@@ -164,6 +222,15 @@ const router = createBrowserRouter([
             <HelmetProvider>
               <Helmet>
                 <title>Kapcsolatfelvétel - evertsontrade.com</title>
+                <meta
+                  property="og:title"
+                  content="Kapcsolatfelvétel - evertsontrade.com"
+                />
+
+                <meta
+                  property="og:url"
+                  content="https://evertsontrade.com/kapcsolatfelvetel"
+                />
               </Helmet>
               <Contact />
             </HelmetProvider>
@@ -178,6 +245,12 @@ const router = createBrowserRouter([
             <HelmetProvider>
               <Helmet>
                 <title>Siker - evertsontrade.com</title>
+                <meta property="og:title" content="Siker - evertsontrade.com" />
+
+                <meta
+                  property="og:url"
+                  content="https://evertsontrade.com/siker"
+                />
               </Helmet>
               <Success />
             </HelmetProvider>
