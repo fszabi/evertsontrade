@@ -37,16 +37,6 @@ const router = createBrowserRouter([
                   content="Kezdőlap - evertsontrade.com"
                 />
                 <meta property="og:url" content="https://evertsontrade.com/" />
-                <meta
-                  name="description"
-                  content="Magyarország legnagyobb skin cashout oldala. Folyamatos nyereményjátékok discordon. 
-                  Kerüld el a scammerekkel való kereskedést, és üzletelj megbízható kereskedőinkkel!"
-                />
-                <meta
-                  property="og:description"
-                  content="Magyarország legnagyobb skin cashout oldala. Folyamatos nyereményjátékok discordon. 
-                  Kerüld el a scammereket, és üzletelj megbízható kereskedőinkkel!"
-                />
               </Helmet>
               <Home />
             </HelmetProvider>
