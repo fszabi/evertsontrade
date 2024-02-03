@@ -37,6 +37,7 @@ const router = createBrowserRouter([
                   content="Kezdőlap - evertsontrade.com"
                 />
                 <meta property="og:url" content="https://evertsontrade.com/" />
+                <link rel="canonical" href="https://evertsontrade.com/" />
               </Helmet>
               <Home />
             </HelmetProvider>
@@ -59,6 +60,10 @@ const router = createBrowserRouter([
                 <meta
                   property="og:url"
                   content="https://evertsontrade.com/kereskedok"
+                />
+                <link
+                  rel="canonical"
+                  href="https://evertsontrade.com/kereskedok"
                 />
               </Helmet>
               <Traders />
@@ -83,6 +88,10 @@ const router = createBrowserRouter([
                   property="og:url"
                   content="https://evertsontrade.com/szolgaltatasok"
                 />
+                <link
+                  rel="canonical"
+                  href="https://evertsontrade.com/szolgaltatasok"
+                />
               </Helmet>
               <Services />
             </HelmetProvider>
@@ -106,6 +115,10 @@ const router = createBrowserRouter([
                   property="og:url"
                   content="https://evertsontrade.com/trade-up"
                 />
+                <link
+                  rel="canonical"
+                  href="https://evertsontrade.com/trade-up"
+                />
               </Helmet>
               <TradeUp />
             </HelmetProvider>
@@ -128,6 +141,10 @@ const router = createBrowserRouter([
                 <meta
                   property="og:url"
                   content="https://evertsontrade.com/skin-berles"
+                />
+                <link
+                  rel="canonical"
+                  href="https://evertsontrade.com/skin-berles"
                 />
               </Helmet>
               <SkinRenting />
