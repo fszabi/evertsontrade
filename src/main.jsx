@@ -13,8 +13,10 @@ import Success from "./routes/Success";
 import TradeSites from "./routes/TradeSites";
 import SkinRenting from "./routes/SkinRenting";
 import ScrollToTop from "./components/ScrollToTop";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Suspense } from "react";
 import "./index.css";
+
 import "../i18n";
 
 const router = createBrowserRouter([
@@ -27,7 +29,18 @@ const router = createBrowserRouter([
         element: (
           <Suspense fallback="...is loading">
             <ScrollToTop />
-            <Home />
+            <HelmetProvider>
+              <Helmet>
+                <title>Kezdőlap - evertsontrade.com</title>
+                <meta
+                  property="og:title"
+                  content="Kezdőlap - evertsontrade.com"
+                />
+                <meta property="og:url" content="https://evertsontrade.com/" />
+                <link rel="canonical" href="https://evertsontrade.com/" />
+              </Helmet>
+              <Home />
+            </HelmetProvider>
           </Suspense>
         ),
       },
@@ -36,7 +49,25 @@ const router = createBrowserRouter([
         element: (
           <Suspense fallback="...is loading">
             <ScrollToTop />
-            <Traders />
+            <HelmetProvider>
+              <Helmet>
+                <title>Kereskedők - evertsontrade.com</title>
+                <meta
+                  property="og:title"
+                  content="Kereskedők - evertsontrade.com"
+                />
+
+                <meta
+                  property="og:url"
+                  content="https://evertsontrade.com/kereskedok"
+                />
+                <link
+                  rel="canonical"
+                  href="https://evertsontrade.com/kereskedok"
+                />
+              </Helmet>
+              <Traders />
+            </HelmetProvider>
           </Suspense>
         ),
       },
@@ -45,7 +76,25 @@ const router = createBrowserRouter([
         element: (
           <Suspense fallback="...is loading">
             <ScrollToTop />
-            <Services />
+            <HelmetProvider>
+              <Helmet>
+                <title>Szolgáltatások - evertsontrade.com</title>
+                <meta
+                  property="og:title"
+                  content="Szolgáltatások - evertsontrade.com"
+                />
+
+                <meta
+                  property="og:url"
+                  content="https://evertsontrade.com/szolgaltatasok"
+                />
+                <link
+                  rel="canonical"
+                  href="https://evertsontrade.com/szolgaltatasok"
+                />
+              </Helmet>
+              <Services />
+            </HelmetProvider>
           </Suspense>
         ),
       },
@@ -54,7 +103,25 @@ const router = createBrowserRouter([
         element: (
           <Suspense fallback="...is loading">
             <ScrollToTop />
-            <TradeUp />
+            <HelmetProvider>
+              <Helmet>
+                <title>Trade-Up - evertsontrade.com</title>
+                <meta
+                  property="og:title"
+                  content="Trade-Up - evertsontrade.com"
+                />
+
+                <meta
+                  property="og:url"
+                  content="https://evertsontrade.com/trade-up"
+                />
+                <link
+                  rel="canonical"
+                  href="https://evertsontrade.com/trade-up"
+                />
+              </Helmet>
+              <TradeUp />
+            </HelmetProvider>
           </Suspense>
         ),
       },
@@ -63,7 +130,25 @@ const router = createBrowserRouter([
         element: (
           <Suspense fallback="...is loading">
             <ScrollToTop />
-            <SkinRenting />
+            <HelmetProvider>
+              <Helmet>
+                <title>Skin Bérlés - evertsontrade.com</title>
+                <meta
+                  property="og:title"
+                  content="Skin Bérlés - evertsontrade.com"
+                />
+
+                <meta
+                  property="og:url"
+                  content="https://evertsontrade.com/skin-berles"
+                />
+                <link
+                  rel="canonical"
+                  href="https://evertsontrade.com/skin-berles"
+                />
+              </Helmet>
+              <SkinRenting />
+            </HelmetProvider>
           </Suspense>
         ),
       },
@@ -72,7 +157,21 @@ const router = createBrowserRouter([
         element: (
           <Suspense fallback="...is loading">
             <ScrollToTop />
-            <TradeGuide />
+            <HelmetProvider>
+              <Helmet>
+                <title>Trade-Alapok - evertsontrade.com</title>
+                <meta
+                  property="og:title"
+                  content="Trade-Alapok - evertsontrade.com"
+                />
+
+                <meta
+                  property="og:url"
+                  content="https://evertsontrade.com/trade-alapok"
+                />
+              </Helmet>
+              <TradeGuide />
+            </HelmetProvider>
           </Suspense>
         ),
       },
@@ -81,7 +180,21 @@ const router = createBrowserRouter([
         element: (
           <Suspense fallback="...is loading">
             <ScrollToTop />
-            <TradeSites />
+            <HelmetProvider>
+              <Helmet>
+                <title>Trade-Oldalak - evertsontrade.com</title>
+                <meta
+                  property="og:title"
+                  content="Trade-Oldalak - evertsontrade.com"
+                />
+
+                <meta
+                  property="og:url"
+                  content="https://evertsontrade.com/trade-oldalak"
+                />
+              </Helmet>
+              <TradeSites />
+            </HelmetProvider>
           </Suspense>
         ),
       },
@@ -90,7 +203,21 @@ const router = createBrowserRouter([
         element: (
           <Suspense fallback="...is loading">
             <ScrollToTop />
-            <ScamDescription />
+            <HelmetProvider>
+              <Helmet>
+                <title>Leírás - evertsontrade.com</title>
+                <meta
+                  property="og:title"
+                  content="Leírás - evertsontrade.com"
+                />
+
+                <meta
+                  property="og:url"
+                  content="https://evertsontrade.com/scam-leiras"
+                />
+              </Helmet>
+              <ScamDescription />
+            </HelmetProvider>
           </Suspense>
         ),
       },
@@ -99,7 +226,21 @@ const router = createBrowserRouter([
         element: (
           <Suspense fallback="...is loading">
             <ScrollToTop />
-            <Contact />
+            <HelmetProvider>
+              <Helmet>
+                <title>Kapcsolatfelvétel - evertsontrade.com</title>
+                <meta
+                  property="og:title"
+                  content="Kapcsolatfelvétel - evertsontrade.com"
+                />
+
+                <meta
+                  property="og:url"
+                  content="https://evertsontrade.com/kapcsolatfelvetel"
+                />
+              </Helmet>
+              <Contact />
+            </HelmetProvider>
           </Suspense>
         ),
       },
@@ -108,7 +249,18 @@ const router = createBrowserRouter([
         element: (
           <Suspense fallback="...is loading">
             <ScrollToTop />
-            <Success />
+            <HelmetProvider>
+              <Helmet>
+                <title>Siker - evertsontrade.com</title>
+                <meta property="og:title" content="Siker - evertsontrade.com" />
+
+                <meta
+                  property="og:url"
+                  content="https://evertsontrade.com/siker"
+                />
+              </Helmet>
+              <Success />
+            </HelmetProvider>
           </Suspense>
         ),
       },
