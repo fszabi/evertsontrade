@@ -5,14 +5,18 @@ export default function ServiceCard({ title, body, href }) {
         {title}
       </h3>
       <p className="leading-relaxed max-sm:text-sm">{body}</p>
+      <p></p>
       {href && (
-        <a
-          className="text-blue-400 underline break-all block"
-          target="_blank"
-          href={href}
-        >
-          {href}
-        </a>
+        <p className="leading-relaxed max-sm:text-sm">
+          A tanfolyam az alábbi linken érhető el:
+          <a
+            className="text-blue-400 underline break-all block"
+            target="_blank"
+            href={href}
+          >
+            {href}
+          </a>
+        </p>
       )}
     </div>
   );
