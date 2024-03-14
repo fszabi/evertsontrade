@@ -3,6 +3,10 @@ import Section from "../components/Section";
 import ServiceCard from "../components/ServiceCard";
 
 const cardBodies = {
+  courseBody: `Teljesen mindegy hogy mivel foglalkoztál eddig, ez a terület biztosan tetszeni fog neked. 
+  Képzeld el azt, hogy ameddig te alszol addig a játéktárgyaid pénzt termelnek neked! Hihetetlennek hangzik igaz? 
+  Elárulom egyáltalán nem az. Minél többet alszok annál több pénzem lesz, mivel az idő csak nekem dolgozik. 
+  Ha szeretnél játszva pénzt keresni csak abban az esetben keress mivel az élet egy játék és én a legmagasabb szinten játszok!`,
   middlemanBody: `Amennyiben vásárolni vagy skint szeretnél eladni más személynek de nem tudtok dűlőre jutni, hogy ki adjon 
   előre szivesen vállalom a közvetitői szerepet. A közvetités menete: Mindenféleképpen az eladó/vevő előre el kell utalja
    a pénzt nekem, majd ha hozzám került a pénz,az adott item gazdát cserél és ezek után fogom elutalni az eladónak/vevőnek
@@ -22,6 +26,12 @@ export default function Services() {
           <h1 className="uppercase italic font-bold text-3xl max-sm:text-2xl text-center">
             Szolgáltatások
           </h1>
+
+          <ServiceCard
+            title="CS2 Tanfolyam"
+            body={cardBodies.courseBody}
+            href="https://whop.com/checkout/d00QLTqFUrW7xpGsF-v2wR-TSy7-GYCN-EJZrfsBnual6/"
+          />
 
           <ServiceCard
             title="Middleman szolgáltatás"
