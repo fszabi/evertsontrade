@@ -5,18 +5,28 @@ export default function ServiceCard({ title, body, href }) {
         {title}
       </h3>
       <p className="leading-relaxed max-sm:text-sm">{body}</p>
-      <p></p>
       {href && (
-        <p className="leading-relaxed max-sm:text-sm">
-          A tanfolyam az alábbi linken érhető el:
-          <a
-            className="text-blue-400 underline break-all block"
-            target="_blank"
-            href={href}
-          >
-            {href}
-          </a>
-        </p>
+        <div className="space-y-10">
+          <p className="leading-relaxed max-sm:text-sm">
+            A tanfolyam az alábbi linken érhető el:
+            <a
+              className="text-blue-400 underline break-all block"
+              target="_blank"
+              href={href}
+            >
+              {href}
+            </a>
+          </p>
+          <iframe
+            className="mx-auto rounded-lg w-full h-[50vh]"
+            src="https://www.youtube.com/embed/SR4p4JyFRVQ?si=iaJeGORjzuySgzLM"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
       )}
     </div>
   );
