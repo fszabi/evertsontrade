@@ -22,6 +22,10 @@ export default function Fieldset({
   fourthCheckTitle,
   fourthCheckId,
   fourthCheckValue,
+  fifthCheckAttr,
+  fifthCheckTitle,
+  fifthCheckId,
+  fifthCheckValue,
 }) {
   const componentRef = useRef(null);
 
@@ -87,14 +91,24 @@ export default function Fieldset({
           inputValue={thirdCheckValue}
         />
 
-        {elements === "4" && (
-          <FormCheckBox
-            checkName={allChecksName}
-            forAttribute={fourthCheckAttr}
-            title={fourthCheckTitle}
-            inputId={fourthCheckId}
-            inputValue={fourthCheckValue}
-          />
+        {elements === "5" && (
+          <>
+            <FormCheckBox
+              checkName={allChecksName}
+              forAttribute={fourthCheckAttr}
+              title={fourthCheckTitle}
+              inputId={fourthCheckId}
+              inputValue={fourthCheckValue}
+            />
+
+            <FormCheckBox
+              checkName={allChecksName}
+              forAttribute={fifthCheckAttr}
+              title={fifthCheckTitle}
+              inputId={fifthCheckId}
+              inputValue={fifthCheckValue}
+            />
+          </>
         )}
       </ul>
     </fieldset>

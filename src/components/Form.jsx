@@ -50,7 +50,7 @@ export default function Form() {
         ></textarea>
       </div>
       <Fieldset
-        elements="4"
+        elements="5"
         legendText="Szolgáltatás típusa"
         radioId="szolgaltatasok"
         allChecksName="szolgaltatas"
@@ -70,6 +70,10 @@ export default function Form() {
         fourthCheckTitle="Értékbecslés"
         fourthCheckId="valuation"
         fourthCheckValue="Értékbecslés"
+        fifthCheckAttr="renting"
+        fifthCheckTitle="Skin bérlés"
+        fifthCheckId="renting"
+        fifthCheckValue="Skin bérlés"
       />
       <FormInput
         required
