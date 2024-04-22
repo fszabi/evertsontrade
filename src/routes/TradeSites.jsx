@@ -13,35 +13,18 @@ export default function TradeGuide() {
             <div className="mx-auto">
               <a
                 className="block space-y-5"
-                href="https://skinswap.com/r/evertson01"
+                href="https://cs.money/market/buy/?utm_source=mediabuy&utm_medium=zoltan&utm_campaign=referral&utm_content=link"
                 target="_blank"
               >
                 <picture className="w-fit mx-auto">
-                  <source srcSet="assets/webp/skinswap_logo.webp" />
+                  <source srcSet="assets/webp/csmoney.webp" />
                   <img
                     className="rounded-lg"
-                    src="assets/png/skinswap_logo.png"
-                    alt="skinswap"
+                    src="assets/png/csmoney.png"
+                    alt="csmoney"
                   />
                 </picture>
-                <p>Megbízható trade oldal</p>
-              </a>
-            </div>
-            <div className="mx-auto">
-              <a
-                className="block space-y-5"
-                href="https://waxpeer.com/r/evertson"
-                target="_blank"
-              >
-                <picture className="w-fit mx-auto">
-                  <source srcSet="assets/webp/waxpeer_logo.webp" />
-                  <img
-                    className="rounded-lg"
-                    src="assets/png/waxpeer_logo.png"
-                    alt="waxpeer"
-                  />
-                </picture>
-                <p>Vásárolj vagy adj el skineket Waxpeer-en.</p>
+                <p>Adj el, vásárolj, vagy tradelj skineket a cs.moneyen.</p>
               </a>
             </div>
             <div className="mx-auto">
@@ -59,64 +42,6 @@ export default function TradeGuide() {
                   />
                 </picture>
                 <p>GamerPay 5 euró kezdőbónusz.</p>
-              </a>
-            </div>
-            <div className="mx-auto">
-              <a
-                className="block space-y-5"
-                href="https://buff.163.com/invite/U1106635008?code=3HKP6"
-                target="_blank"
-              >
-                <picture className="w-fit mx-auto">
-                  <source srcSet="assets/webp/buff163_logo.webp" />
-                  <img
-                    className="rounded-lg"
-                    src="assets/png/buff163_logo.png"
-                    alt="buff163"
-                  />
-                </picture>
-                <p>Legnagyobb oldal eladáshoz és vásárláshoz.</p>
-              </a>
-            </div>
-            <div className="mx-auto">
-              <a
-                className="block space-y-5"
-                href="https://csgotraders.net/ref/TIHE2DI"
-                target="_blank"
-              >
-                <picture className="w-fit mx-auto">
-                  <source srcSet="assets/webp/csgotraders_logo.webp" />
-                  <img
-                    className="rounded-lg"
-                    src="assets/png/csgotraders_logo.png"
-                    alt="csgotraders"
-                  />
-                </picture>
-                <p>
-                  Hasonló oldal mint a régi csgolounge, ha érdekel a tradelés
-                  próbáld ki.
-                </p>
-              </a>
-            </div>
-            <div className="mx-auto">
-              <a
-                className="block space-y-5"
-                href="https://rapidskins.com/a/evertson01"
-                target="_blank"
-              >
-                <picture className="w-fit mx-auto">
-                  <source srcSet="assets/webp/rapidskins_logo.webp" />
-                  <img
-                    className="rounded-lg"
-                    src="assets/png/rapidskins_logo.png"
-                    alt="rapidskins"
-                  />
-                </picture>
-                <p>
-                  Ha szeretnél megbizható trade bot oldalon kereskedni cs2 vagy
-                  rust skinekkel esetleg cryptoért skineket vásárolni nézz rá a
-                  rapidskinsre.
-                </p>
               </a>
             </div>
             <div className="mx-auto">
@@ -142,35 +67,52 @@ export default function TradeGuide() {
             <div className="mx-auto">
               <a
                 className="block space-y-5"
-                href="https://tradeit.gg/?aff=evertson01"
+                href="https://waxpeer.com/r/evertson"
                 target="_blank"
               >
                 <picture className="w-fit mx-auto">
-                  <source srcSet="assets/webp/tradeit_logo.webp" />
+                  <source srcSet="assets/webp/waxpeer_logo.webp" />
                   <img
                     className="rounded-lg"
-                    src="assets/jpg/tradeit_logo.jpg"
-                    alt="tradeit"
+                    src="assets/png/waxpeer_logo.png"
+                    alt="waxpeer"
                   />
                 </picture>
-                <p>Ha megbizható trade bot oldalon cserélnél.</p>
+                <p>Vásárolj vagy adj el skineket Waxpeer-en.</p>
               </a>
             </div>
             <div className="mx-auto">
               <a
                 className="block space-y-5"
-                href="https://shadowpay.com/?utm_campaign=ybovAaEWac6HoGr"
+                href="https://buff.163.com/invite/U1106635008?code=3HKP6"
                 target="_blank"
               >
                 <picture className="w-fit mx-auto">
-                  <source srcSet="assets/webp/shadowpay_logo.webp" />
+                  <source srcSet="assets/webp/buff163_logo.webp" />
                   <img
                     className="rounded-lg"
-                    src="assets/png/shadowpay_logo.png"
-                    alt="shadowpay"
+                    src="assets/png/buff163_logo.png"
+                    alt="buff163"
                   />
                 </picture>
-                <p>Vásárolj vagy adj el skineket Shadowpay-en.</p>
+                <p>Legnagyobb oldal eladáshoz és vásárláshoz.</p>
+              </a>
+            </div>
+            <div className="mx-auto">
+              <a
+                className="block space-y-5"
+                href="https://csfloat.com/ref/evertson"
+                target="_blank"
+              >
+                <picture className="w-fit mx-auto">
+                  <source srcSet="assets/webp/csfloat.webp" />
+                  <img
+                    className="rounded-lg"
+                    src="assets/png/csfloat.png"
+                    alt="csfloat"
+                  />
+                </picture>
+                <p>Vásárolj vagy adj el skineket a CSFloat-on.</p>
               </a>
             </div>
             <div className="mx-auto">
