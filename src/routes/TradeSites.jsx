@@ -47,26 +47,6 @@ export default function TradeGuide() {
             <div className="mx-auto">
               <a
                 className="block space-y-5"
-                href="https://skinflow.gg/?referral=evertson"
-                target="_blank"
-              >
-                <picture className="w-fit mx-auto">
-                  <source srcSet="assets/webp/skinflow_logo.webp" />
-                  <img
-                    className="rounded-lg"
-                    src="assets/png/skinflow_logo.png"
-                    alt="skinflow"
-                  />
-                </picture>
-                <p>
-                  Ha szeretnél megbizható trade bot oldalon kereskedni vagy
-                  cryptoért skineket vásárolni nézz rá a skinflowra.
-                </p>
-              </a>
-            </div>
-            <div className="mx-auto">
-              <a
-                className="block space-y-5"
                 href="https://waxpeer.com/r/evertson"
                 target="_blank"
               >
@@ -96,6 +76,46 @@ export default function TradeGuide() {
                   />
                 </picture>
                 <p>Legnagyobb oldal eladáshoz és vásárláshoz.</p>
+              </a>
+            </div>
+            <div className="mx-auto">
+              <a
+                className="block space-y-5"
+                href="https://skinflow.gg/?referral=evertson"
+                target="_blank"
+              >
+                <picture className="w-fit mx-auto">
+                  <source srcSet="assets/webp/skinflow_logo.webp" />
+                  <img
+                    className="rounded-lg"
+                    src="assets/png/skinflow_logo.png"
+                    alt="skinflow"
+                  />
+                </picture>
+                <p>
+                  Ha szeretnél megbizható trade bot oldalon kereskedni vagy
+                  cryptoért skineket vásárolni nézz rá a skinflowra.
+                </p>
+              </a>
+            </div>
+            <div className="mx-auto">
+              <a
+                className="block space-y-5"
+                href="https://csfloat.com/ref/evertson"
+                target="_blank"
+              >
+                <picture className="w-fit mx-auto">
+                  <source srcSet="assets/webp/tradeit.webp" />
+                  <img
+                    className="rounded-lg"
+                    src="assets/png/tradeit.png"
+                    alt="tradeit"
+                  />
+                </picture>
+                <p>
+                  Ha szeretnél megbizható trade oldalon kereskedni használd a
+                  tradeitggt.
+                </p>
               </a>
             </div>
             <div className="mx-auto">
