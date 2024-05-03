@@ -101,7 +101,7 @@ export default function TradeGuide() {
             <div className="mx-auto">
               <a
                 className="block space-y-5"
-                href="https://csfloat.com/ref/evertson"
+                href="https://tradeit.gg/?aff=evertson01"
                 target="_blank"
               >
                 <picture className="w-fit mx-auto">
