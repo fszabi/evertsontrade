@@ -28,7 +28,7 @@ export default function Services() {
             Szolgáltatások
           </h1>
 
-          <div className="grid grid-cols-3 gap-5">
+          <div className="grid gap-5">
             <ServiceCard
               title="CS2 Tanfolyam"
               body={cardBodies.courseBody}
