@@ -23,10 +23,13 @@ export default {
           300: "#8b272c",
           400: "#700001",
         },
+        neutral: {
+          900: "#121212",
+        },
       },
-      // backgroundImage: {
-      //   body: "radial-gradient(farthest-corner circle at 50% 50%, #700001 0%, #1f0e0d 100%)",
-      // },
+      backgroundImage: {
+        body: "radial-gradient(farthest-corner circle at 50% 50%, #700001 0%, #1f0e0d 100%)",
+      },
     },
   },
   plugins: [],
