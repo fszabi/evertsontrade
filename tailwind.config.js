@@ -23,17 +23,10 @@ export default {
           300: "#8b272c",
           400: "#700001",
         },
-        neutral: {
-          900: "#060606",
-        },
       },
-      backgroundImage: {
-        body: "radial-gradient(farthest-corner circle at 50% 50%, #700001 0%, #1f0e0d 100%)",
-      },
-      fontFamily: {
-        // "sans-1": ["Roboto", "system-ui", "sans-serif"],
-        // "sans-2": ["Roboto Condensed", "system-ui", "sans-serif"],
-      },
+      // backgroundImage: {
+      //   body: "radial-gradient(farthest-corner circle at 50% 50%, #700001 0%, #1f0e0d 100%)",
+      // },
     },
   },
   plugins: [],

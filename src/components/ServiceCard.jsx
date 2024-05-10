@@ -1,6 +1,6 @@
 export default function ServiceCard({ title, body, href, hrefText, video }) {
   return (
-    <div className="bg-neutral-900 p-7 rounded-xl shadow-2xl space-y-5">
+    <div className="bg-neutral-800 p-7 rounded-xl shadow-2xl space-y-5">
       <h3 className="text-blue-400 uppercase text-xl max-sm:text-lg">
         {title}
       </h3>

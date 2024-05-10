@@ -13,7 +13,7 @@ export default function Footer() {
               target="_blank"
               aria-label="Evertson trade link megnyitása"
               href="https://steamcommunity.com/tradeoffer/new/?partner=1061101075&token=SLQ6lxob"
-              className="mx-auto flex justify-center items-center rounded-full aspect-square h-[5rem] bg-neutral-900"
+              className="mx-auto flex justify-center items-center rounded-full aspect-square h-[5rem] bg-neutral-800"
             >
               <img
                 className="w-12 h-12 hover:opacity-50 hover:scale-105 transition-all duration-300"

@@ -2,12 +2,12 @@
 
 @layer base {
   :root {
-    --neutral-900: #060606;
+    --neutral-900: #171717;
     --blue-400: #60a5fa;
   }
 
   body {
-    @apply bg-body text-neutral-100 font-sans text-base;
+    @apply bg-neutral-900 text-neutral-100 font-sans text-base;
   }
 
   h1,

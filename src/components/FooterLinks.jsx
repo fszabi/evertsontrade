@@ -3,7 +3,7 @@ import { Fragment } from "react";
 
 export default function FooterLinks() {
   return (
-    <ul className="flex flex-wrap justify-center gap-x-20 gap-y-5 bg-neutral-900 rounded-lg w-fit mx-auto px-10 max-sm:px-4 py-4">
+    <ul className="flex flex-wrap justify-center gap-x-20 gap-y-5 bg-neutral-800 rounded-lg w-fit mx-auto px-10 max-sm:px-4 py-4">
       <FooterLink
         href="https://discord.com/invite/2Yf3zP7CMQ"
         aria="discord link"

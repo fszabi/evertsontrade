@@ -28,30 +28,27 @@ export default function Services() {
             Szolgáltatások
           </h1>
 
-          <ServiceCard
-            title="CS2 Tanfolyam"
-            body={cardBodies.courseBody}
-            href="https://whop.com/checkout/d00QLTqFUrW7xpGsF-v2wR-TSy7-GYCN-EJZrfsBnual6/"
-            hrefText="A tanfolyam az alábbi linken érhető el:"
-            video="https://www.youtube.com/embed/SR4p4JyFRVQ?si=iaJeGORjzuySgzLM"
-          />
+          <div className="grid grid-cols-3 gap-5">
+            <ServiceCard
+              title="CS2 Tanfolyam"
+              body={cardBodies.courseBody}
+              href="https://whop.com/checkout/d00QLTqFUrW7xpGsF-v2wR-TSy7-GYCN-EJZrfsBnual6/"
+              hrefText="A tanfolyam az alábbi linken érhető el:"
+              video="https://www.youtube.com/embed/SR4p4JyFRVQ?si=iaJeGORjzuySgzLM"
+            />
 
-          <ServiceCard
-            title="CS2 Fogadás Csoport"
-            body={cardBodies.bettingBody}
-            href="https://www.patreon.com/eVERTSONBETS"
-            hrefText="A csoport az alábbi linken érhető el:"
-          />
+            <ServiceCard
+              title="CS2 Fogadás Csoport"
+              body={cardBodies.bettingBody}
+              href="https://www.patreon.com/eVERTSONBETS"
+              hrefText="A csoport az alábbi linken érhető el:"
+            />
 
-          <ServiceCard
-            title="Middleman szolgáltatás"
-            body={cardBodies.middlemanBody}
-          />
-
-          <ServiceCard
-            title="Skin értékbecslés szolgáltatás"
-            body={cardBodies.skinBody}
-          />
+            <ServiceCard
+              title="Middleman szolgáltatás"
+              body={cardBodies.middlemanBody}
+            />
+          </div>
         </Container>
       </Section>
       <Section>

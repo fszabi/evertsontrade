@@ -79,23 +79,23 @@ export default function MainHeader() {
             </NavItem>
 
             <NavItem NavStateChange={onNavStateChange}>
-              <Link to="/trade-up">Trade-Up</Link>
+              <Link to="/trade-up">Trade Up</Link>
             </NavItem>
 
             <NavItem NavStateChange={onNavStateChange}>
-              <Link to="/skin-berles">Skin-Bérlés</Link>
+              <Link to="/skin-berles">Skin Bérlés</Link>
             </NavItem>
 
             <NavItem NavStateChange={onNavStateChange}>
-              <Link to="/trade-alapok">Trade-Alapok</Link>
+              <Link to="/trade-alapok">Trade Alapok</Link>
             </NavItem>
 
             <NavItem NavStateChange={onNavStateChange}>
-              <Link to="/trade-oldalak">Trade-Oldalak</Link>
+              <Link to="/trade-oldalak">Trade Oldalak</Link>
             </NavItem>
 
             <NavItem NavStateChange={onNavStateChange}>
-              <Link to="/scam-leiras">Scam-Leírás</Link>
+              <Link to="/scam-leiras">Scam Leírás</Link>
             </NavItem>
 
             <NavItem NavStateChange={onNavStateChange}>
