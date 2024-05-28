@@ -82,9 +82,9 @@ export default function MainHeader() {
               <Link to="/trade-up">Trade Up</Link>
             </NavItem>
 
-            <NavItem NavStateChange={onNavStateChange}>
+            {/* <NavItem NavStateChange={onNavStateChange}>
               <Link to="/skin-berles">Skin Bérlés</Link>
-            </NavItem>
+            </NavItem> */}
 
             <NavItem NavStateChange={onNavStateChange}>
               <Link to="/trade-alapok">Trade Alapok</Link>

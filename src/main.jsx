@@ -125,33 +125,33 @@ const router = createBrowserRouter([
           </Suspense>
         ),
       },
-      {
-        path: "/skin-berles",
-        element: (
-          <Suspense fallback="...is loading">
-            <ScrollToTop />
-            <HelmetProvider>
-              <Helmet>
-                <title>Skin Bérlés - evertsontrade.com</title>
-                <meta
-                  property="og:title"
-                  content="Skin Bérlés - evertsontrade.com"
-                />
+      // {
+      //   path: "/skin-berles",
+      //   element: (
+      //     <Suspense fallback="...is loading">
+      //       <ScrollToTop />
+      //       <HelmetProvider>
+      //         <Helmet>
+      //           <title>Skin Bérlés - evertsontrade.com</title>
+      //           <meta
+      //             property="og:title"
+      //             content="Skin Bérlés - evertsontrade.com"
+      //           />
 
-                <meta
-                  property="og:url"
-                  content="https://evertsontrade.com/skin-berles"
-                />
-                <link
-                  rel="canonical"
-                  href="https://evertsontrade.com/skin-berles"
-                />
-              </Helmet>
-              <SkinRenting />
-            </HelmetProvider>
-          </Suspense>
-        ),
-      },
+      //           <meta
+      //             property="og:url"
+      //             content="https://evertsontrade.com/skin-berles"
+      //           />
+      //           <link
+      //             rel="canonical"
+      //             href="https://evertsontrade.com/skin-berles"
+      //           />
+      //         </Helmet>
+      //         <SkinRenting />
+      //       </HelmetProvider>
+      //     </Suspense>
+      //   ),
+      // },
       {
         path: "/trade-alapok",
         element: (
