@@ -1,5 +1,5 @@
 # Evertson Trade
 
-Website for CS2 Trader EVERTSON
+Old website for CS2 Trader EVERTSON
 
-Link: https://evertsontrade.com
+New website repository: https://github.com/fszabi/evertson
